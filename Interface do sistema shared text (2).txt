@@ -1,0 +1,3234 @@
+Commands
+Type
+Prefixed
+Slash
+Context Menu Message
+Context Menu User
+Category
+All
+Fun
+Image Manipulation
+Informational
+Moderation
+Bot Owner Only
+Say
+Search
+Server Settings
+Tools
+Utilities
+Search for a command
+.
+Fun
+Execute a custom command tag
+<tagname> <...arguments>
+.4chan
+Search
+Search 4Chan
+?<board>
+.activity
+Informational
+Get a user's current activity, defaults to self
+?<user:id|mention|name>
+.adhd
+Image Manipulation
+Add random gameplay to an Audio/Image/Video file
+?<emoji,user:id|mention|name,url> (-horizontal)
+.aesthetics
+Fun
+Aestheticfy some text
+<text>
+.ai
+Fun
+Use AI to generate and execute TagScript code
+<text> (-debug) (-personalitypreference <TagGenerationPersonalityPreferences>) (-use TagGenerationModels)
+.alien
+Image Manipulation
+Alienify an Image's face
+?<emoji,user:id|mention|name,url>
+.allowlist
+Moderation
+List all channels/roles/users part of the server's allowlist.
+?<GuildAllowlistType>
+.allowlist add
+Moderation
+Add an item based on mention type to the allowlist.
+...<channel:mention,role:mention,user:mention>
+.allowlist add channels
+Moderation
+Add channels to the allowlist.
+...<channel:id|mention|name>
+.allowlist add roles
+Moderation
+Add roles to the allowlist.
+...<role:id|mention|name>
+.allowlist add users
+Moderation
+Add users to the allowlist.
+...<user:id|mention|name>
+.allowlist clear
+Moderation
+Clear out Channels/Roles/Users/Server-Wide allowlist.
+?<GuildDisableCommandsType>
+.allowlist remove
+Moderation
+Remove allowlist items based on the mention type.
+...<channel:mention,role:mention,user:mention>
+.allowlist remove channels
+Moderation
+Remove channels from the allowlist.
+...<channel:id|mention|name>
+.allowlist remove roles
+Moderation
+Remove roles from the allowlist.
+...<role:id|mention|name>
+.allowlist remove users
+Moderation
+Remove users from the allowlist.
+...<user:id|mention|name>
+.android
+Image Manipulation
+Compress the Audio/Image/Video File to be Android-Like
+?<emoji,user:id|mention|name,url> (-scale <number>)
+.anime
+Image Manipulation
+Animeify an Image's face
+?<emoji,user:id|mention|name,url>
+.applications
+Informational
+Get information about multiple (or one) application (Uses the same list Discord does)
+?<application:id|mention|name>
+.ascii
+Fun
+Convert text to an ASCII Image
+<text>
+.ascii image
+Image Manipulation
+Ascii-fy an Image or Video
+?<emoji,user:id|mention|name,url>
+.audio channels combine
+Tool-like
+Combine an Audio or Video file's audio streams to be mono
+?<emoji,user:id|mention|name,url> (-norevert)
+.audio compress
+Tool-like
+Compress Audio
+?<emoji,user:id|mention|name,url> (-norevert)
+.audio delay
+Tool-like
+Delay the Audio Stream of an Audio or Video File
+?<emoji,user:id|mention|name,url> <delay,float> (-nosnip)
+.audio destroy
+Tool-like
+Destroy Audio
+?<emoji,user:id|mention|name,url>
+.audio equalizer
+Tool-like
+Manipulate an Audio or Video's Equalizer Settings
+?<emoji,user:id|mention|name,url> (-air <float>) (-bass <float>) (-highmids <float>) (-lowmids <float>) (-mids <float>) (-subbass <float>) (-treble <float>)
+.audio flanger
+Tool-like
+Apply a Flanger Effect on an Audio or Video
+?<emoji,user:id|mention|name,url> (-delay <number>) (-depth <number>) (-phase <number>) (-regen <number>) (-speed <float>) (-width <number>)
+.audio identify
+Tool-like
+Identify a song in an audio or video file
+?<emoji,user:id|mention|name,url> (-start <duration>)
+.audio pitch
+Tool-like
+Manipulate an audio or video file's pitch
+?<emoji,user:id|mention|name,url> (-scale <float>)
+.audio put concat
+Tool-like
+Concat an Audio/Image/Video's audio with another audio file
+?<emoji,user:id|mention|name,url> ?<emoji,user:id|mention|name,url> (-longest) (-noloop)
+.audio put mix
+Tool-like
+Mix an Audio/Image/Video's audio with another audio file
+?<emoji,user:id|mention|name,url> ?<emoji,user:id|mention|name,url> (-longest) (-noloop)
+.audio put replace
+Tool-like
+Replace an Audio/Image/Video's audio with another audio file
+?<emoji,user:id|mention|name,url> ?<emoji,user:id|mention|name,url> (-longest) (-noloop)
+.audio reverb
+Tool-like
+Add an Audio Reverb to an Audio or Video File.
+?<emoji,user:id|mention|name,url> (-decay <float>) (-delay <number>) (-volume <float>)
+.audio reverse
+Tool-like
+Reverse Audio
+?<emoji,user:id|mention|name,url>
+.audio tremolo
+Tool-like
+Modify the audio's wave pattern in an Audio or Video file
+?<emoji,user:id|mention|name,url> (-depth <float>) (-frequency <float>)
+.audio vibrato
+Tool-like
+Adjust the timing of sound waves in any Audio or Video file
+?<emoji,user:id|mention|name,url> (-depth <float>) (-frequency <float>)
+.avatar
+Informational
+Get the avatar for a user, defaults to self
+?<user:id|mention|name> (-default) (-noembed)
+.avatar
+Informational
+Get the avatar for a user, defaults to self
+?<user:id|mention|name> (-default) (-noembed)
+.b1
+Fun
+cool
+.background remove
+Image Manipulation
+Remove the background of an Image or Video
+?<emoji,user:id|mention|name,url> (-model <MediaBackgroundRemovalModels>) (-trim)
+.badmeme
+Fun
+Show a Bad Meme
+.ban
+Moderation
+Ban multiple users, add a reason, and clean their messages.
+...?<user:id|mention> <reason:string> (-clean <days>)
+.bill
+Image Manipulation
+Draw an Image on a 100 dollar bill
+?<emoji,user:id|mention|name,url>
+.bitrate
+Image Manipulation
+Set an Audio or Video File's Bit Rate
+<emoji,user:id|mention,url> <video:number> <audio:number>
+.blocklist
+Moderation
+List all channels/roles/users part of the server's blocklist.
+?<GuildBlocklistType>
+.blocklist add
+Moderation
+Add an item based on mention type to the blocklist.
+...<channel:mention,role:mention,user:mention>
+.blocklist add channels
+Moderation
+Add channels to the blocklist.
+...<channel:id|mention|name>
+.blocklist add roles
+Moderation
+Add roles to the blocklist.
+...<role:id|mention|name>
+.blocklist add users
+Moderation
+Add users to the blocklist.
+...<user:id|mention|name>
+.blocklist clear
+Moderation
+Clear out Channels/Roles/Users/Server-Wide blocklist.
+?<GuildDisableCommandsType>
+.blocklist remove
+Moderation
+Remove blocklist items based on the mention type.
+...<channel:mention,role:mention,user:mention>
+.blocklist remove channels
+Moderation
+Remove channels from the blocklist.
+...<channel:id|mention|name>
+.blocklist remove roles
+Moderation
+Remove roles from the blocklist.
+...<role:id|mention|name>
+.blocklist remove users
+Moderation
+Remove users from the blocklist.
+...<user:id|mention|name>
+.blur
+Image Manipulation
+Blur an Image or Video
+?<emoji,user:id|mention|name,url> (-scale <float>)
+.blurple
+Image Manipulation
+Blurple-fy an Image or Video
+?<emoji,user:id|mention|name,url>
+.boost bass
+Tool-like
+Boost an audio/video's bass
+?<emoji,user:id|mention|name,url>
+.burn
+Image Manipulation
+Draw an Image on a burning photo
+?<emoji,user:id|mention|name,url>
+.caption
+Image Manipulation
+Add Caption Text to an Image or Video
+?<emoji,user:id|mention,url> <...text>
+.channel
+Informational
+Get information for a channel, defaults to the current channel
+?<channel:id|mention|name>
+.circle
+Image Manipulation
+Put a radial blur on an Image or Video
+?<emoji,user:id|mention|name,url> (-scale <number>)
+.clown
+Image Manipulation
+Clownify an Image's face
+?<emoji,user:id|mention|name,url>
+.code
+Tool-like
+Execute code
+<?language> <code>
+.commands allowlist
+Moderation
+List all allowlisted commands (and their associated type)
+?<GuildCommandsAllowlistType>
+.commands allowlist add
+Moderation
+Add a command to an allowlist for a Channel/Role/User or Server-Wide
+<command-name> (-channels ...<channel:id|mention|name>) (-roles ...<role:id|mention|name>) (-users ...<user:id|mention|name>)
+.commands allowlist clear
+Moderation
+Clear out Channels/Roles/Users/Server-Wide allowlisted commands.
+?<GuildCommandsAllowlistType>
+.commands allowlist remove
+Moderation
+Remove a command from an allowlist for a Channel/Role/User or Server-Wide
+<command-name> (-channels ...<channel:id|mention|name>) (-roles ...<role:id|mention|name>) (-users ...<user:id|mention|name>)
+.commands blocklist
+Moderation
+List all blocked commands (and their associated type)
+?<GuildCommandsBlocklistType>
+.commands blocklist add
+Moderation
+Block a command for a Channel/Role/User or Server-Wide
+<command-name> (-channels ...<channel:id|mention|name>) (-roles ...<role:id|mention|name>) (-users ...<user:id|mention|name>)
+.commands blocklist clear
+Moderation
+Clear out Channels/Roles/Users/Server-Wide blocked commands.
+?<GuildCommandsBlocklistType>
+.commands blocklist remove
+Moderation
+Remove a command blocklist item for a Channel/Role/User or Server-Wide
+<command-name> (-channels ...<channel:id|mention|name>) (-roles ...<role:id|mention|name>) (-users ...<user:id|mention|name>)
+.commands usage
+Moderation
+Show the latest commands used by the Server
+<command-name> (-channel <channel:id|mention|name>) (-user <user:id|mention|name>)
+.concat
+Tool-like
+Concat two Medias together
+?<emoji,user:id|mention|name,url> ?<emoji,user:id|mention|name,url>
+.convert
+Tool-like
+Convert Media
+<emoji,user:id|mention,url> <...format> (-size <number|(width)x(height)>
+.crop
+Image Manipulation
+Crop an Image or Video
+?<emoji,user:id|mention,url> <width,expression> <height,expression> ?<x,expression> ?<y,expression>
+.crop auto
+Image Manipulation
+Crop an Image or Video Automatically
+?<emoji,user:id|mention|name,url>
+.crop circle
+Image Manipulation
+Crop out a circle from an Image or Video
+?<emoji,user:id|mention|name,url>
+.crop nft
+Image Manipulation
+Crop out a Twitter NFT Hex from an Image or Video
+?<emoji,user:id|mention|name,url>
+.crop triangle
+Image Manipulation
+Crop out a Triangle from an Image or Video
+?<emoji,user:id|mention|name,url>
+.datamosh
+Image Manipulation
+Datamosh an Animated Image or Video (Duplicates P-frames)
+?<emoji,user:id|mention|name,url> (-chance <number>) (-repeat <number>)
+.deepfry
+Image Manipulation
+Deep fry an Image or Video
+?<emoji,user:id|mention|name,url> (-notransparency) (-scale <float>)
+.detunnel
+Image Manipulation
+Apply a De-Tunnel effect on an Image or Video
+?<emoji,user:id|mention|name,url> (-spiral)
+.distort
+Image Manipulation
+Use ImageMagick's Distort Operation on an Image or Video
+?<emoji,user:id|mention,url> <method:string> ...<arguments:float>
+.download
+Tool-like
+Download a URL, like reels/shorts/tiktoks
+<url> (-format <Mimetypes>) (-locale <language>) (-position <number>) (-quality <DownloadQualities>) (-safe) (-spoiler)
+.duckduckgo
+Search
+Search DuckDuckGo
+<query> (-randomize)
+.duckduckgo image
+Search
+Search DuckDuckGo Images
+<query> (-randomize)
+.e2e
+Image Manipulation
+Edges to Emoji
+?<emoji,user:id|mention|name,url>
+.e2p
+Image Manipulation
+Edges to Porn
+?<emoji,user:id|mention|name,url>
+.e621
+Search
+Search e621, a furry NSFW image board
+<query> (-randomize)
+.e926
+Search
+Search e926, a furry (apparently NON-NSFW) image board
+<query> (-randomize)
+.edgedetect
+Image Manipulation
+Extract and compose Image/Video edges using 8-directional Sobel edge detection
+?<emoji,user:id|mention|name,url> (-invert) (-method <MediaEmbossMethods>) (-mix <number>) (-strength <float>)
+.edit
+Tool-like
+Alter an Image with machine learning (thanks evan)
+?<emoji,user:id|mention,url> <...query> (-safe) (-seed <number>) (-steps <number>) (-strength <number>) (-use <MLDiffusionModel>)
+.emboss
+Image Manipulation
+Apply an Emboss effect to an Image or Video
+?<emoji,user:id|mention|name,url> (-azimuth <number>) (-compose <MediaEmbossComposeMethods>) (-elevation <number>) (-depth <number>) (-intensity <number>) (-gray <float>) (-method <MediaEmbossMethods>)
+.emoji
+Fun
+make emoji big!
+<emojis> (-type <EmojiTypes>)
+.emojify
+Fun
+.emojis
+Bot Owner Only
+Search through all emoji's that NotSoBot sees.
+<emoji:id|name>
+.eval
+Bot Owner Only
+Eval some code ;)
+<code> (-async) (-jsonspacing <number>) (-noembed) (-noreply) (-upload)
+.exif
+Tool-like
+Get exif information from an image
+?<emoji,user:id|mention|name,url>
+.exo
+Image Manipulation
+Exo-alienify an Image or Video
+?<emoji,user:id|mention|name,url>
+.explode
+Image Manipulation
+Explode an Image or Video from the center
+?<emoji,user:id|mention|name,url> (-scale <float>)
+.extract audio
+Tool-like
+Extract audio from a video
+?<emoji,user:id|mention|name,url>
+.extract media
+Tool-like
+Extract Audio and Frames from Media into a Zip File
+?<emoji,user:id|mention|name,url>
+.eyes
+Image Manipulation
+Attach eyes to people's faces in an Image or Video
+?<emoji,user:id|mention|name,url> (-type <MediaEyeTypes>)
+.eyes big
+Image Manipulation
+Attach big eyes to people's faces in an Image or Video
+?<emoji,user:id|mention|name,url>
+.eyes black
+Image Manipulation
+Attach black eyes to people's faces in an Image or Video
+?<emoji,user:id|mention|name,url>
+.eyes bloodshot
+Image Manipulation
+Attach bloodshot eyes to people's faces in an Image or Video
+?<emoji,user:id|mention|name,url>
+.eyes blue
+Image Manipulation
+Attach blue eyes to people's faces in an Image or Video
+?<emoji,user:id|mention|name,url>
+.eyes center
+Image Manipulation
+Attach centered eyes to people's faces in an Image or Video
+?<emoji,user:id|mention|name,url>
+.eyes flare
+Image Manipulation
+Attach red eyes to people's faces in an Image or Video
+?<emoji,user:id|mention|name,url>
+.eyes googly
+Image Manipulation
+Attach googly eyes to people's faces in an Image or Video
+?<emoji,user:id|mention|name,url>
+.eyes green
+Image Manipulation
+Attach green eyes to people's faces in an Image or Video
+?<emoji,user:id|mention|name,url>
+.eyes horror
+Image Manipulation
+Attach horror eyes to people's faces in an Image or Video
+?<emoji,user:id|mention|name,url>
+.eyes illuminati
+Image Manipulation
+Attach illuminati eyes to people's faces in an Image or Video
+?<emoji,user:id|mention|name,url>
+.eyes money
+Image Manipulation
+Attach money eyes to people's faces in an Image or Video
+?<emoji,user:id|mention|name,url>
+.eyes pink
+Image Manipulation
+Attach money eyes to people's faces in an Image or Video
+?<emoji,user:id|mention|name,url>
+.eyes small
+Image Manipulation
+Attach small eyes to people's faces in an Image or Video
+?<emoji,user:id|mention|name,url>
+.eyes spinner
+Image Manipulation
+Attach spinner eyes to people's faces in an Image or Video
+?<emoji,user:id|mention|name,url>
+.eyes spongebob
+Image Manipulation
+Attach spongebob eyes to people's faces in an Image or Video
+?<emoji,user:id|mention|name,url>
+.eyes white
+Image Manipulation
+Attach white eyes to people's faces in an Image or Video
+?<emoji,user:id|mention|name,url>
+.eyes yellow
+Image Manipulation
+Attach yellow eyes to people's faces in an Image or Video
+?<emoji,user:id|mention|name,url>
+.fadein
+Image Manipulation
+Add a Fade In Animation to an Audio/Image/Video file
+?<emoji,user:id|mention|name,url> (-color <string:FFMPEGColors|HEX|RGBA?>) (-duration <float>)
+.fat
+Image Manipulation
+Fattify an Image's face
+?<emoji,user:id|mention|name,url> (-size <MediaFaceFatSizes>)
+.fisheye
+Image Manipulation
+Apply a Fisheye Effect on an Image or Video
+?<emoji,user:id|mention|name,url>
+.flip
+Image Manipulation
+Flip an Image or Video (Vertical Flip)
+?<emoji,user:id|mention|name,url>
+.flop
+Image Manipulation
+Flop an Image or Video (Horizontal Flip)
+?<emoji,user:id|mention|name,url>
+.giphy
+Search
+Search Giphy
+<query>
+.glitch
+Image Manipulation
+Glitch an Image or Video
+?<emoji,user:id|mention|name,url> (-amount <number>) (-iterations <number>) (-notransparency) (-seed <number>)
+.glitch gif
+Image Manipulation
+Glitch an Image or Video, Single-framed Images become Animated
+?<emoji,user:id|mention|name,url> (-amount <number>) (-iterations <number>) (-notransparency) (-seed <number>)
+.globe
+Image Manipulation
+Create a globe out of an Image or Video
+?<emoji,user:id|mention|name,url>
+.gold
+Image Manipulation
+Gold tintify an Image or Video
+?<emoji,user:id|mention|name,url>
+.google
+Search
+Search Google
+<query> (-locale <language>) (-safe)
+.google reverse
+Search
+Reverse Search an image using Google
+?<emoji,user:id|mention|name,url>
+.grain
+Image Manipulation
+Apply a Film Grain effect to an Image or Video
+?<emoji,user:id|mention|name,url> (-flags <FFMPEGNoiseFlags>) (-strength <number>)
+.grayscale
+Image Manipulation
+Grayscale an Image or Video
+?<emoji,user:id|mention|name,url>
+.guild
+Informational
+Get information for a guild, defaults to the current guild
+?<guild:id>
+.guildicon
+Informational
+Get the icon for a guild, defaults to the current guild
+?<guild:id>
+.hash
+Tool-like
+Hash some text, uses MD5 by default
+<text> (-use <HashTypes>) (-secret <string>)
+.help
+Utility
+Help!
+.huecurvergba
+Image Manipulation
+Apply RGB/A curve adjustments to an Image or Video's channels
+?<emoji,user:id|mention|name,url> (-all <HueCurveCoordinates>) (-red <HueCurveCoordinates>) (-green <HueCurveCoordinates>) (-blue <HueCurveCoordinates>) (-alpha <HueCurveCoordinates>)
+.huehsv
+Image Manipulation
+Shift an Image or Video's HSV Hue, Saturation, and Brightness by X amount using ImageMagick
+?<emoji,user:id|mention,url> ?<hue:number> ?<saturation:float> ?<brightness:float>
+.huehsvffmpeg
+Image Manipulation
+Shift an Image or Video's HSV Hue, Saturation, and Brightness by X amount using FFMPEG
+?<emoji,user:id|mention,url> ?<hue:number> ?<saturation:float> ?<brightness:float>
+.huergb
+Image Manipulation
+Shift an Image or Video's RGB Pixel Color by X amount
+?<emoji,user:id|mention,url> ?<red:number> ?<green:number> ?<blue:number>
+.identity
+Image Manipulation
+.ifunny
+Image Manipulation
+Attach an iFunny Label on an Image or Video
+?<emoji,user:id|mention|name,url>
+.image
+Search
+Search Google Images
+<query> (-locale <language>) (-randomize) (-safe)
+.image2
+Search
+Search Google Images, but with less data displayed
+<query> (-locale <language>) (-randomize) (-safe)
+.imagine
+Tool-like
+Generate an Image based off a prompt (thanks evan)
+<...query> (-safe) (-seed <number>) (-steps <number>) (-use <MLDiffusionModel>)
+.imaginevideo
+Tool-like
+Generate a Video based off a prompt
+<...query>
+.imgur
+Search
+Search Imgur
+<query>
+.implode
+Image Manipulation
+Implode an Image or Video from the center
+?<emoji,user:id|mention|name,url> (-scale <float>)
+.interrogate
+Tool-like
+Generate a prompt from an Image
+?<emoji,user:id|mention|name,url>
+.invert
+Image Manipulation
+Invert an Image or Video
+?<emoji,user:id|mention|name,url>
+.invertrgba
+Image Manipulation
+Invert each individual channel with 1, or ignore with 0
+?<emoji,user:id|mention,url> ?<red:number> ?<green:number> ?<blue:number> ?<alpha:number>
+.invite
+Utility
+Invite to Guild Link
+.inviteinfo
+Informational
+Get information of a discord invite
+<code>
+.join
+Tool-like
+Join two medias together
+?<emoji,user:id|mention|name,url> ?<emoji,user:id|mention|name,url> (-noloop) (-vertical)
+.kek
+Image Manipulation
+Exo-alienify and Swirl an Image or Video
+?<emoji,user:id|mention|name,url>
+.kek2
+Image Manipulation
+Exo-alienify, Swirl, and Rain-ify an Image or Video
+?<emoji,user:id|mention|name,url>
+.kick
+Moderation
+Kick multiple members, add a reason, and clean their messages.
+...?<user:id|mention> <reason (string)> (-clean <days>)
+.labels
+Tool-like
+Get the labels of an image
+?<emoji,user:id|mention|name,url>
+.latte
+Image Manipulation
+Draw an Image on a Latte
+?<emoji,user:id|mention|name,url>
+.legofy
+Image Manipulation
+Legofy an Image or Video
+?<emoji,user:id|mention|name,url> (-dither) (-palette <MediaLegofyPalettes>) (-size <number>)
+.loggers
+Moderation
+List all loggers inside of the server.
+?<GuildLoggerTypes>
+.loggers add bans
+Moderation
+Create a logger for ban events.
+(-channel <text-channel:id|mention|name>) (-in <category-channel:id|mention|name>)
+.loggers add members
+Moderation
+Create a logger for member events.
+(-channel <text-channel:id|mention|name>) (-in <category-channel:id|mention|name>)
+.loggers add messages
+Moderation
+Create a logger for message events.
+(-channel <text-channel:id|mention|name>) (-in <category-channel:id|mention|name>)
+.loggers add roles
+Moderation
+Create a logger for role events.
+(-channel <text-channel:id|mention|name>) (-in <category-channel:id|mention|name>)
+.loggers add users
+Moderation
+Create a logger for user events.
+(-channel <text-channel:id|mention|name>) (-in <category-channel:id|mention|name>)
+.loggers add voice
+Moderation
+Create a logger for voice events.
+(-channel <text-channel:id|mention|name>) (-in <category-channel:id|mention|name>)
+.magik
+Image Manipulation
+Magikify an Image or Video
+?<emoji,user:id|mention|name,url> (-scale <float>)
+.magik gif
+Image Manipulation
+Magikify an Image or Video, Single-framed Images become Animated
+?<emoji,user:id|mention|name,url>
+.mandalascope
+Image Manipulation
+Apply a Mandala-like Kaleidoscope filter to an Image or Video
+?<emoji,user:id|mention|name,url> (-amount <number>) (-rotation <number>) (-scale <float>) (-translation <number>) (-zoom <float>)
+.mashup
+Tool-like
+Mashup two emojis together using Google's Emoji Kitchen or AI
+?<emoji,user:id|mention|name,url> ?<emoji,user:id|mention|name,url> (-safe) (-seed <number>) (-steps <number>) (-strength <number>) (-use <MLDiffusionModel>)
+.math
+Tool-like
+Evaluate a Math Equation
+<equation>
+.meme
+Image Manipulation
+Add Meme Text to an Image or Video
+?<emoji,user:id|mention,url> <...text>
+.memoryusage
+Utility
+Show the bot's current memory usage
+.merge
+Image Manipulation
+.mirror bottom
+Image Manipulation
+Mirror bottom half of an Image or Video
+?<emoji,user:id|mention|name,url>
+.mirror left
+Image Manipulation
+Mirror left half of an Image or Video
+?<emoji,user:id|mention|name,url>
+.mirror right
+Image Manipulation
+Mirror right half of an Image or Video
+?<emoji,user:id|mention|name,url>
+.mirror top
+Image Manipulation
+Mirror top half of an Image or Video
+?<emoji,user:id|mention|name,url>
+.motionblur
+Image Manipulation
+Apply a Motion Blur to an Image or Video
+?<emoji,user:id|mention|name,url> (-strength <number>) (-vertical)
+.needsmorejpeg
+Image Manipulation
+Needs More JPEG
+?<emoji,user:id|mention|name,url> (-notransparency) (-quality <number>)
+.nick mass
+Moderation
+Change the nickname of multiple members
+<text> (-nobots) (-nousers) (-role <role:id|name>)
+.nick mass cancel
+Moderation
+Cancel an ongoing mass nickname change
+.nick mass reset
+Moderation
+Reset the nickname of multiple members
+(-nobots) (-nousers) (-role <role:id|name>)
+.object remove
+Image Manipulation
+Remove the background of an image
+?<emoji,user:id|mention|name,url> (-model <ImageObjectRemovalLabelsToText>)
+.ocr
+Tool-like
+Read text inside of an image (Optical Character Recognition)
+?<emoji,user:id|mention|name,url> (-noembed)
+.ocrtranslate
+Tool-like
+Read text inside of an image and translate it
+?<emoji,user:id|mention|name,url> (-to <language>)
+.offset
+Image Manipulation
+Offset an Image or Video by X or Y amount
+?<emoji,user:id|mention,url> <x,expression> <y,expression>
+.overlay
+Tool-like
+Overlay one media on top of another
+?<emoji,user:id|mention|name,url> ?<emoji,user:id|mention|name,url> (-blend <float>) (-color <string:FFMPEGColors|HEX|RGBA?>) (-noloop) (-opacity <number>) (-resize <expression>) (-similarity <float>) (-x <expression>) (-y <expression>)
+.overlay bernie
+Image Manipulation
+Overlay an Image or Video over a sign pointed at by Bernie Sanders
+?<emoji,user:id|mention|name,url>
+.overlay bobross
+Image Manipulation
+Overlay an Image or Video over a Bob Ross canvas
+?<emoji,user:id|mention|name,url>
+.overlay face
+Image Manipulation
+Overlay media onto the face of another media
+?<emoji,user:id|mention|name,url> ?<emoji,user:id|mention|name,url> (-scale <float>)
+.overlay flies
+Image Manipulation
+Overlay some flies over an Image or Video
+?<emoji,user:id|mention|name,url> (-amount <number>) (-degrees <number>) (-fly <emoji,user:id|mention|name,url>) (-speed <float>)
+.overlay gaben
+Image Manipulation
+Overlay an Image or Video over a sign held by Gaben Newell
+?<emoji,user:id|mention|name,url>
+.overlay gay
+Image Manipulation
+Overlay a LGBT flag over an Image or Video
+?<emoji,user:id|mention|name,url>
+.overlay israel
+Image Manipulation
+Overlay an Israeli flag over an Image or Video
+?<emoji,user:id|mention|name,url>
+.overlay linus
+Image Manipulation
+Overlay an Image or Video over a monitor with Linus Tech Tips
+?<emoji,user:id|mention|name,url>
+.overlay northkorea
+Image Manipulation
+Overlay a North Korean flag over an Image or Video
+?<emoji,user:id|mention|name,url>
+.overlay pistol
+Image Manipulation
+Overlay a Half Life Pistol over an Image or Video
+?<emoji,user:id|mention|name,url>
+.overlay russia
+Image Manipulation
+Overlay a Russian flag over an Image or Video
+?<emoji,user:id|mention|name,url>
+.overlay shotgun
+Image Manipulation
+Overlay a Half Life Shotgun over an Image or Video
+?<emoji,user:id|mention|name,url>
+.overlay smg
+Image Manipulation
+Overlay a Half Life SMG over an Image or Video
+?<emoji,user:id|mention|name,url>
+.overlay starman
+Image Manipulation
+Overlay Elon Musk's Starman over an Image or Video
+?<emoji,user:id|mention|name,url>
+.overlay trans
+Image Manipulation
+Overlay a Transgender flag over an Image or Video
+?<emoji,user:id|mention|name,url>
+.overlay uk
+Image Manipulation
+Overlay an UK flag over an Image or Video
+?<emoji,user:id|mention|name,url>
+.overlay usa
+Image Manipulation
+Overlay an USA flag over an Image or Video
+?<emoji,user:id|mention|name,url>
+.overlay ussr
+Image Manipulation
+Overlay an USSR flag over an Image or Video
+?<emoji,user:id|mention|name,url>
+.owner block guild
+Bot Owner Only
+Block a guild from the bot
+<guild:id>
+.owner block user
+Bot Owner Only
+Block a user from the bot
+<user:id|mention|name>
+.owner guild features add
+Bot Owner Only
+Add a feature to the current guild
+<feature> ?<guild:id>
+.owner guild features remove
+Bot Owner Only
+Remove a feature from the current guild
+<feature> ?<guild:id>
+.owner unblock guild
+Bot Owner Only
+Unblock a guild from the bot
+<guild:id>
+.owner unblock user
+Bot Owner Only
+Unblock a user from the bot
+<user:id|mention|name>
+.paint
+Image Manipulation
+Apply an Oil Paint effect to an Image or Video
+?<emoji,user:id|mention|name,url> (-radius <number>)
+.paint gif
+Image Manipulation
+Apply a gradually increasing Oil Paint effect to a Single-framed Image
+?<emoji,user:id|mention|name,url>
+.paper
+Image Manipulation
+Create a paper out of an Image/Gif
+?<emoji,user:id|mention|name,url>
+.phosimp
+Image Manipulation
+Apply PhoSimp Filters on an Image or Video
+?<emoji,user:id|mention|name,url> <...PhoSimpFilters>
+.ping
+Utility
+Ping Discord's Gateway and Rest Api
+.pipe
+Image Manipulation
+Pipe some Image commands together
+<emoji,user:id|mention,url> <...commands>
+.pixelate
+Image Manipulation
+Pixelate an Image or Video
+?<emoji,user:id|mention|name,url> (-nolines) (-width <number>)
+.playing
+Informational
+List users in the current server that is playing a certain game.
+?<application:id|name>
+.prefixes
+Server Settings
+Show all current prefixes in the server.
+.prefixes add
+Server Settings
+Add a custom prefix to the guild. (Bot Mentions will always override this)
+<prefix>
+.prefixes clear
+Server Settings
+Clear all custom prefixes from the guild. (Bot Mentions will always override this)
+.prefixes remove
+Server Settings
+Remove a custom prefix from the guild. (Bot Mentions will always override this)
+<prefix>
+.prefixes replace
+Server Settings
+Replace all custom prefixes in the guild. (Bot Mentions will always override this)
+<prefix>
+.privacy
+Utility
+Privacy Policy
+.prune
+Moderation
+Prune multiple messages, default 10 messages
+<max_messages> (-after <message_id>) (-before <message_id>) (-from <user>) (-in <channel>) (-with <text>)
+.qr create
+Tool-like
+Generate a QR code
+<query> (-margin <number>) (-size <number>)
+.qr scan
+Tool-like
+Scan an image for QR Codes
+?<emoji,user:id|mention|name,url>
+.rain
+Image Manipulation
+Add a rainbowish tint to an Image or Video
+?<emoji,user:id|mention|name,url>
+.rain
+Image Manipulation
+Add a rainbowish tint to an Image or Video
+?<emoji,user:id|mention|name,url>
+.raingold
+Image Manipulation
+Add a rainbowish gold tint to an Image or Video
+?<emoji,user:id|mention|name,url>
+.recaption
+Image Manipulation
+Remove Caption Text then Add Caption Text to an Image or Video
+<emoji,user:id|mention,url> <...text> (-tolerance <number>)
+.recolor
+Image Manipulation
+Recolor an Image or Video with brighter colors
+<emoji,user:id|mention,url>
+.reddit
+Search
+Search Reddit
+<query> (-safe) (-sort <RedditSortType>) (-subreddit <string>) (-time <RedditTimeType>)
+.refresh
+Bot Owner Only
+Reload the bot's commands.
+(-listeners) (-stores)
+.regional
+Fun
+Convert text to regional emojis
+<text>
+.reimagine
+Tool-like
+Alter an Image by generating a prompt of the Imagine then Imagining that prompt
+?<emoji,user:id|mention,url> (-add <query>) (-safe) (-seed <number>) (-steps <number>) (-use <MLDiffusionModel>)
+.remind
+Tool-like
+Create a reminder
+<natural-timestamp-and-text>
+.remind delete
+Tool-like
+Delete a reminder
+<position,number>
+.remind delete server
+Tool-like
+Delete a User's Reminder from the Server
+<user:id|mention|name> ?<position,number>
+.remind list
+Tool-like
+List of your Reminders in the Server or Globally
+(-global)
+.remind list server
+Tool-like
+List of Reminders in the Server
+?<user:id|mention|name>
+.resize
+Image Manipulation
+Resize an Image or Video
+?<emoji,user:id|mention|name,url> <SizeOrScale:Size,float> (-convert <format>) (-ratio)
+.retro
+Image Manipulation
+Create a Retro Image overlayed with text
+?<text> (-type <retro-type>)
+.reverse
+Image Manipulation
+Reverse an animated image/audio/video
+?<emoji,user:id|mention|name,url> (-noaudio)
+.reversetext
+Fun
+Reverse text
+<text>
+.rip
+Image Manipulation
+Create a tombstone with some text
+?<user:mention> ...?<text>
+.ripple
+Image Manipulation
+Apply a Ripple effect on an Image or Video
+?<emoji,user:id|mention|name,url> (-amplitude <number>) (-offset <number>) (-power <float>) (-rmin <number>) (-width <number>)
+.role
+Informational
+Get information for a role, defaults to the @everyone role
+?<role:id|mention|name> (-channel ?<channel:id|mention|name>)
+.rotate
+Image Manipulation
+Rotate an Image or Video (default: 90 degrees)
+?<emoji,user:id|mention|name,url> (-crop) (-degrees <number>)
+.rotate3d
+Image Manipulation
+Rotate an Image or Video on a 3d axis
+?<emoji,user:id|mention|name,url> <pan:number> <tilt:number> <roll:number> (-crop <MediaRotate3dCropModes>) (-order <RotationSequence>) (-zoom <float>)
+.rule34
+Search
+Search rule34.xxx
+<query> (-randomize)
+.rule34paheal
+Search
+Search rule34.paheal.net
+<query> (-randomize)
+.safetylabels
+Tool-like
+Get the safety labels of an image
+?<emoji,user:id|mention|name,url>
+.say
+Bot Owner Only
+Have the bot say something (owner only because exploits)
+<text>
+.screenshot
+Tool-like
+Take a screenshot of a website
+<url> (-height <number>) (-lightmode) (-safe) (-timeout <seconds>) (-wait <number>) (-width <number>)
+.seenon
+Bot Owner Only
+Get guilds a user shares with NotSoBot
+?<user:id|mention|name>
+.seesaw
+Image Manipulation
+See Saw an animated image/audio/video, add a reversed copy of itself at the end of it
+?<emoji,user:id|mention|name,url>
+.sepia
+Image Manipulation
+Apply an Sepia Tint to an Image or Video
+?<emoji,user:id|mention|name,url>
+.set ai personality
+Server Settings
+Set the guild's AI personality.
+<personality-description> (-clear)
+.set locale
+Server Settings
+Set the guild's language preference.
+<locale> (-clear)
+.set my ai personality
+Server Settings
+Set the your AI personality.
+<personality-description> (-clear)
+.set my locale
+Server Settings
+Set your default language preference.
+<locale> (-clear)
+.set timezone
+Server Settings
+Change your guild's timezone for commands/logging purposes
+<timezone> (-clear)
+.setframecount
+Image Manipulation
+Set an Animated Image or Video's Frame Count
+<emoji,user:id|mention,url> <...count:number>
+.shake
+Image Manipulation
+Shake an Image or Video
+?<emoji,user:id|mention|name,url> (-horizontal <float>) (-randomize) (-vertical <float>)
+.shards
+Utility
+Show all of the bot's shard information
+.shardsleft
+Bot Owner Only
+See how many identifies we have left and when it'll reset
+.sharpen
+Image Manipulation
+Sharpen an Image or Video from the center
+?<emoji,user:id|mention|name,url> (-scale <float>)
+.shuffle
+Image Manipulation
+Shuffle an Audio/Image/Video file's frames around randomly
+?<emoji,user:id|mention|name,url> ?<segment:float>
+.slide
+Image Manipulation
+Apply a Sliding Effect to an Image or Video
+?<emoji,user:id|mention|name,url> (-direction <MediaSlideDirections>) (-speed <float>)
+.smile
+Image Manipulation
+Make all the characters in an Image or Video (first frame) smile so big.
+?<emoji,user:id|mention|name,url>
+.snip
+Tool-like
+Snip an Animated Image/Audio/Video
+?<emoji,user:id|mention|name,url> <start,number> <end,number> (-audio)
+.snipframes
+Tool-like
+Snip the frames of an Animated Image/Video
+?<emoji,user:id|mention|name,url> <start,number> <end,number>
+.solarize
+Image Manipulation
+Apply an Solarize Tint to an Image or Video
+?<emoji,user:id|mention|name,url>
+.speed
+Image Manipulation
+Edit an animated image/audio/video's Speed
+<emoji,user:id|mention,url> <...speed:milliseconds>
+.spin
+Image Manipulation
+Create a spinning disk from an Image or Video
+?<emoji,user:id|mention|name,url> (-counterclockwise) (-nocircle) (-nocrop)
+.spin3d
+Image Manipulation
+Spin an Image or Video in 3d space, like the dancing cockroach
+?<emoji,user:id|mention|name,url> (-tilt <number>)
+.stammer
+Tool-like
+Cut up the audio and video frames of a media to match with the modulator's audio frames
+?<emoji,user:id|mention|name,url> ?<emoji,user:id|mention|name,url> (-color <MediaStammerColorModes>) (-matcher <MediaStammerMatcherModes>)
+.steam
+Search
+Search Steam Community for a user
+<query>
+.steam emoji
+Search
+Search all of Steam's Emojis
+<query>
+.steam profile
+Search
+Show information about a Steam User's Profile
+<steam-id|steam-vanity>
+.stretch
+Image Manipulation
+Stretch an Image or Video by its Width or Height
+?<emoji,user:id|mention|name,url> <width,number> <height,number> (-crop)
+.swapcolors
+Image Manipulation
+Shuffle each pixel's RGBA Channels of an Image or Video
+?<emoji,user:id|mention|name,url>
+.swappixels
+Image Manipulation
+Shuffle every pixel of an Image or Video around
+?<emoji,user:id|mention|name,url>
+.swaprgba
+Image Manipulation
+Swap an Image or Video RGBA channels around
+?<emoji,user:id|mention|name,url> <channels:string>
+.swirl
+Image Manipulation
+Swirl an Image or Video from the center
+?<emoji,user:id|mention|name,url> (-degrees <number>)
+.tag
+Fun
+Show a tag
+<tagname> <...arguments>
+.tag alias
+Fun
+Create a tag alias
+<tagname> <tagname2>
+.tag commands
+Fun
+List all of the current server's custom commands
+?<user:id|mention|name>
+.tag commands add
+Fun
+Add a tag into the custom command list
+<tagname>
+.tag commands me
+Fun
+List all of your global custom commands
+?<user:id|mention|name>
+.tag commands remove
+Fun
+Remove a tag from the custom command list
+<tagname>
+.tag create
+Fun
+Create a tag
+<tagname> <...body>
+.tag edit
+Fun
+Edit a tag
+<tagname> <...body>
+.tag export
+Fun
+Export tags from a server with filters
+(-content <string>) (-name <string>) (-user <user:id|mention|name>)
+.tag info
+Fun
+View a tag's raw content
+<tagname>
+.tag list
+Fun
+List all of a user's tags
+?<user:id|mention|name>
+.tag random
+Fun
+Show a random tag
+<...arguments>
+.tag remove all
+Fun
+Remove all of a server's tags, with filters
+(-content <string>) (-name <string>) (-user <user:id|mention|name>)
+.tag remove tag
+Fun
+Delete a tag
+<tagname> (-force)
+.tag rename
+Fun
+Rename a tag
+<tagname> <tagname2>
+.tag search
+Fun
+Search the Server's Tags
+?<query> (-user ?<user:id|mention|name>)
+.textwall
+Fun
+Textwallify some text
+<text>
+.togif
+Image Manipulation
+Convert an Image or Video to a gif, resizing and lowering fps as needed
+?<emoji,user:id|mention|name,url>
+.tone
+Tool-like
+.trace
+Image Manipulation
+Trace an Image/Gif
+?<emoji,user:id|mention|name,url>
+.transcribe
+Tool-like
+Transcribe an audio or video file
+?<emoji,user:id|mention|name,url>
+.transcribetranslate
+Tool-like
+Transcribe an audio or video file then translate it
+?<emoji,user:id|mention|name,url> (-to <language>)
+.translate
+Tool-like
+Translate text to a different language
+<text> (-to <language>) (-from <language>)
+.triggered
+Image Manipulation
+?<emoji,user:id|mention|name,url> (-type <triggered-type>)
+.trim
+Image Manipulation
+Trim an Image or Video's excess background
+?<emoji,user:id|mention|name,url> (-margin <number>) (-threshold <number>)
+.tts
+Fun
+Text to Speech
+<text> (-use <language/type>)
+.tunnel
+Image Manipulation
+Apply a Tunnel effect on an Image or Video
+?<emoji,user:id|mention|name,url> (-spiral)
+.unban
+Moderation
+Unban multiple users and add a reason
+...?<user:id|mention> <reason:string>
+.uncaption
+Image Manipulation
+Uncaption an Image or Video
+?<emoji,user:id|mention|name,url> (-tolerance <number>)
+.undo
+Utility
+Undo your last commands. (Up to 5 last commands, default 1)
+?<amount>
+.upload-commands
+Bot Owner Only
+Upload the bot's command information to the website
+.urban
+Search
+Search Urban Dictionary
+?<query>
+.usage
+Utility
+Show the bot's current usage (and Discord object counts)
+.user
+Informational
+Get information about a user, defaults to self
+?<user:id|mention|name>
+.users
+Informational
+Get information about multiple members/users
+?<user:id|mention|name>
+.vaporwave
+Image Manipulation
+Vaporwave-theme an Image or Video
+<emoji,user:id|mention,url> <...text>
+.voice clone
+Tool-like
+Clone a voice from an Audio or Video File to use for Text-to-Speech
+?<emoji,user:id|mention|name,url> (-name <string>)
+.voice clone add
+Tool-like
+Add another Audio or Video File to a cloned voice for Text-to-Speech
+?<emoji,user:id|mention,url> <...voice:string>
+.voice delete
+Tool-like
+Delete one of your stored cloned voices
+<voice:string>
+.voice list
+Tool-like
+List your stored cloned voices
+.voice record
+Tool-like
+Record your own voice in a voice channel to a WAV file.
+<duration:number>
+.voice rename
+Tool-like
+Rename one cloned voice to another name
+<voice:string> <...name:string>
+.volume
+Tool-like
+Change an audio/video's volume
+?<emoji,user:id|mention|name,url> ?<volume,float>
+.wall
+Image Manipulation
+Create a wall with an Image or Video
+?<emoji,user:id|mention|name,url>
+.watercolor
+Image Manipulation
+Apply a Watercolor Effect to an Image or Video
+?<emoji,user:id|mention|name,url> (-contrast <float>) (-edge <float>) (-mixing <number>) (-smoothing <number>)
+.watermark
+Image Manipulation
+.wave
+Image Manipulation
+Distort an Image or Video with a sine wave function
+?<emoji,user:id|mention|name,url> (-amplitude <number>) (-length <number>)
+.waves
+Image Manipulation
+Distort an Image or Video with a sine wave function that moves
+?<emoji,user:id|mention|name,url> (-amplitude <number>) (-length <number>) (-speed <number>)
+.weather
+Tool-like
+Show the weather of a location
+<location> (-units <MeasurementUnits>)
+.webmd
+Search
+Search WebMD
+<query>
+.wiggle
+Image Manipulation
+Wiggle an Image or Video
+?<emoji,user:id|mention|name,url> (-amount <number>) (-direction <MediaWiggleDirections>) (-wavelengths <number>)
+.wikihow
+Search
+Search WikiHow
+<query> (-random)
+.wolframalpha
+Search
+Search Wolfram Alpha
+<query>
+.wordcloud
+Image Manipulation
+Generate a wordcloud from past messages
+...<channel:id|mention|name> (-max <number>)
+.youtube
+Search
+Search Youtube
+<query> (-sp <string>)
+.zoom
+Image Manipulation
+Zoom into an Image or Video
+?<emoji,user:id|mention|name,url> <amount,float>
+.zoomblur
+Image Manipulation
+Apply a Zoom Blur to an Image or Video
+?<emoji,user:id|mention|name,url> (-amount <float>) (-expand)
+
+Commands
+
+Type
+
+Prefixed
+
+Slash
+
+Context Menu Message
+
+Context Menu User
+
+Category
+
+All
+
+Fun
+
+Image Manipulation
+
+Informational
+
+Moderation
+
+Bot Owner Only
+
+Say
+
+Search
+
+Server Settings
+
+Tools
+
+Utilities
+
+/a convert
+
+Unknown Category
+
+Convert an Audio or Video File
+
+/download
+
+Tool-like
+
+Download Media from a URL
+
+/fun b1
+
+Fun
+
+Cool B1 Emoji
+
+/fun badmeme
+
+Fun
+
+Show a Bad Meme
+
+/fun emoji
+
+Fun
+
+Make an Emoji Big!
+
+/fun tts
+
+Fun
+
+Generate Text to Speech
+
+/help
+
+Utility
+
+Help
+
+/i tint rain
+
+Image Manipulation
+
+Rainbow tintify an Image
+
+/i-tools crop
+
+Image Manipulation
+
+Crop an Image automatically
+
+/i-tools objects remove
+
+Image Manipulation
+
+Remove object(s) from an image
+
+/media-aiv adhd
+
+Image Manipulation
+
+Add random gameplay to an Audio/Image/Video file
+
+/media-aiv android
+
+Image Manipulation
+
+Compress the Audio/Image/Video File to be Android-Like
+
+/media-aiv extract media
+
+Tool-like
+
+Extract Audio and Frames into a ZIP from an Audio, Image, or Video File
+
+/media-aiv fade-in
+
+Image Manipulation
+
+Add a Fade In Animation to an Audio/Image/Video file
+
+/media-aiv pipe
+
+Image Manipulation
+
+Pipe Multiple Media Commands Together
+
+/media-aiv shuffle
+
+Image Manipulation
+
+Shuffle an Audio/Image/Video file's frames around randomly
+
+/media-aiv-tools audio put-concat
+
+Tool-like
+
+Concat an Audio/Image/Video's audio with another audio file
+
+/media-aiv-tools audio put-mix
+
+Tool-like
+
+Mix an Audio/Image/Video's audio with another audio file
+
+/media-aiv-tools audio put-replace
+
+Tool-like
+
+Replace an Audio/Image/Video's audio with another audio file
+
+/media-aiv-tools concat
+
+Tool-like
+
+Concat two Medias together
+
+/media-aiv-tools join
+
+Tool-like
+
+Join two Medias together
+
+/media-aiv-tools overlay
+
+Tool-like
+
+Overlay one media on top of another
+
+/media-aiv-tools reverse
+
+Image Manipulation
+
+Reverse an Animated Image/Audio/Video
+
+/media-aiv-tools seesaw
+
+Image Manipulation
+
+SeeSaw an Animated Image/Audio/Video, add a reversed copy of itself at the end of it
+
+/media-aiv-tools snip
+
+Tool-like
+
+Snip an Animated Image/Audio/Video
+
+/media-aiv-tools speed
+
+Image Manipulation
+
+Edit an Animated Image/Audio/Video's Speed
+
+/media-av audio boost-bass
+
+Tool-like
+
+Boost an Audio or Video's bass
+
+/media-av audio channels-combine
+
+Tool-like
+
+Combine an Audio or Video file's audio streams to be mono
+
+/media-av audio compress
+
+Tool-like
+
+Compress Audio
+
+/media-av audio delay
+
+Tool-like
+
+Delay the Audio Stream of an Audio or Video File
+
+/media-av audio destroy
+
+Tool-like
+
+Destroy Audio
+
+/media-av audio equalizer
+
+Tool-like
+
+Manipulate an Audio or Video's Equalizer Settings
+
+/media-av audio flanger
+
+Tool-like
+
+Apply a Flanger Effect on an Audio or Video
+
+/media-av audio identify
+
+Tool-like
+
+Identify a song in an audio or video file
+
+/media-av audio pitch
+
+Tool-like
+
+Manipulate an Audio or Video's Pitch
+
+/media-av audio reverb
+
+Tool-like
+
+Add an Audio Reverb to an Audio or Video file
+
+/media-av audio reverse
+
+Tool-like
+
+Reverse Audio
+
+/media-av audio tremolo
+
+Tool-like
+
+Modify the audio's wave pattern in an Audio or Video file
+
+/media-av audio vibrato
+
+Tool-like
+
+Adjust the timing of sound waves in any Audio or Video file
+
+/media-av audio volume
+
+Tool-like
+
+Manipulate an Audio or Video's Volume
+
+/media-av extract audio
+
+Tool-like
+
+Extract Audio from an Audio or Video File
+
+/media-av stammer
+
+Tool-like
+
+Cut up the audio and video frames of a media to match with the modulator's audio frames
+
+/media-av-tools convert
+
+Unknown Category
+
+Convert an Audio or Video File
+
+/media-av-tools set bitrate
+
+Image Manipulation
+
+Set an Audio or Video File's Bit Rate
+
+/media-i face alien
+
+Image Manipulation
+
+Alienify an Image's face
+
+/media-i face anime
+
+Image Manipulation
+
+Animeify an Image's face
+
+/media-i face clown
+
+Image Manipulation
+
+Clownify an Image's face
+
+/media-i face fat
+
+Image Manipulation
+
+Fattify an Image's face
+
+/media-i fun bill
+
+Image Manipulation
+
+Draw an Image on a 100 dollar bill
+
+/media-i fun burn
+
+Image Manipulation
+
+Draw an Image on a burning photo
+
+/media-i fun latte
+
+Image Manipulation
+
+Draw an Image on a Latte
+
+/media-iv fun ascii
+
+Image Manipulation
+
+Ascii-fy an Image or Video
+
+/media-iv fun blur
+
+Image Manipulation
+
+Blur an Image or Video
+
+/media-iv fun circle
+
+Image Manipulation
+
+Put a Radial Blur on an Image or Video
+
+/media-iv fun deepfry
+
+Image Manipulation
+
+Deepfry an Image or Video
+
+/media-iv fun e2e
+
+Image Manipulation
+
+Edges to Emoji an Image or Video
+
+/media-iv fun e2p
+
+Image Manipulation
+
+Edges to NSFW an Image or Video
+
+/media-iv fun exo
+
+Image Manipulation
+
+Exo-alienify an Image or Video
+
+/media-iv fun explode
+
+Image Manipulation
+
+Explode an Image or Video from the center
+
+/media-iv fun flip
+
+Image Manipulation
+
+Flip an Image or Video (Vertical Flip)
+
+/media-iv fun flop
+
+Image Manipulation
+
+Flop an Image or Video (Horizontal Flip)
+
+/media-iv fun glitch
+
+Image Manipulation
+
+Glitch an Image or Video
+
+/media-iv fun glitch-gif
+
+Image Manipulation
+
+Glitch an Image or Video, Single-framed Images become Animated
+
+/media-iv fun implode
+
+Image Manipulation
+
+Implode an Image or Video from the center
+
+/media-iv fun kek
+
+Image Manipulation
+
+Exo-alienify and Swirl an Image or Video
+
+/media-iv fun kek2
+
+Image Manipulation
+
+Exo-alienify, Swirl, and Rain an Image or Video
+
+/media-iv fun magik
+
+Image Manipulation
+
+Magikfy an Image or Video
+
+/media-iv fun magik-gif
+
+Image Manipulation
+
+Magikfy an Image or Video, Single-framed Images become Animated
+
+/media-iv fun paper
+
+Image Manipulation
+
+Overlay an Image or Video on some paper
+
+/media-iv fun pixelate
+
+Image Manipulation
+
+Pixelate an Image or Video
+
+/media-iv fun swap-colors
+
+Image Manipulation
+
+Shuffle each pixel's RGBA Channels of an Image or Video
+
+/media-iv fun swap-pixels
+
+Image Manipulation
+
+Shuffle every pixel of an Image or Video around
+
+/media-iv fun swap-rgba
+
+Image Manipulation
+
+Shift the Image or Video's RGB Pixel Color by X amount
+
+/media-iv fun trace
+
+Image Manipulation
+
+Trace an Image or Video
+
+/media-iv fun wall
+
+Image Manipulation
+
+Create a wall out of an Image or Video
+
+/media-iv labels ifunny
+
+Image Manipulation
+
+Attach an iFunny Label on an Image or Video
+
+/media-iv overlay bobross
+
+Image Manipulation
+
+Overlay an Image or Video over a Bob Ross canvas
+
+/media-iv overlay face
+
+Image Manipulation
+
+Overlay Media onto the face of another Media
+
+/media-iv overlay flies
+
+Image Manipulation
+
+Overlay some flies on an Image or Video
+
+/media-iv overlay pistol
+
+Image Manipulation
+
+Overlay a Half Life Pistol on an Image or Video
+
+/media-iv tint blurple
+
+Image Manipulation
+
+Blurple-fy an Image or Video
+
+/media-iv tint gold
+
+Image Manipulation
+
+Gold tintify an Image or Video
+
+/media-iv tint grayscale
+
+Image Manipulation
+
+Grayscale an Image or Video
+
+/media-iv tint invert
+
+Image Manipulation
+
+Invert an Image or Video's Color
+
+/media-iv tint invert-rgba
+
+Image Manipulation
+
+Invert each individual channel with 1, or ignore with 0
+
+/media-iv tint rain
+
+Image Manipulation
+
+Rainbow tintify an Image or Video
+
+/media-iv tint rain-gold
+
+Image Manipulation
+
+Rainbowish Gold tintify an Image or Video
+
+/media-iv tint recolor
+
+Image Manipulation
+
+Recolor an Image or Video with brighter colors
+
+/media-iv tint sepia
+
+Image Manipulation
+
+Apply a Sepia Tint to an Image or Video
+
+/media-iv tint solarize
+
+Image Manipulation
+
+Apply a Solarize Effect to an Image or Video
+
+/media-iv-2 fun detunnel
+
+Image Manipulation
+
+Apply a De-Tunnel effect on an Image or Video
+
+/media-iv-2 fun distort
+
+Image Manipulation
+
+Use ImageMagick's Distort Operation on an Image or Video
+
+/media-iv-2 fun emboss
+
+Image Manipulation
+
+Apply an Emboss effect to an Image or Video
+
+/media-iv-2 fun fisheye
+
+Image Manipulation
+
+Apply a Fisheye Effect on an Image or Video
+
+/media-iv-2 fun grain
+
+Image Manipulation
+
+Apply a Film Grain effect to an Image or Video
+
+/media-iv-2 fun hue-shift-hsv-ffmpeg
+
+Image Manipulation
+
+Shift the Image or Video's Hue, Saturation, and Brightness by X amount using FFMPEG
+
+/media-iv-2 fun hue-shift-rgb
+
+Image Manipulation
+
+Shift the Image or Video's RGB Pixel Color by X amount
+
+/media-iv-2 fun jpeg
+
+Image Manipulation
+
+Needs More JPEG
+
+/media-iv-2 fun mandalascope
+
+Image Manipulation
+
+Apply a Mandala-like Kaleidoscope filter to an Image or Video
+
+/media-iv-2 fun motion-blur
+
+Image Manipulation
+
+Apply a Motion Blur to an Image or Video
+
+/media-iv-2 fun paint
+
+Image Manipulation
+
+Apply an Oil Paint effect to an Image or Video
+
+/media-iv-2 fun paint-gif
+
+Image Manipulation
+
+Apply a gradually increasing Oil Paint effect to a Single-framed Image
+
+/media-iv-2 fun shake
+
+Image Manipulation
+
+Shake an Image or Video
+
+/media-iv-2 fun sharpen
+
+Image Manipulation
+
+Sharpen an Image or Video
+
+/media-iv-2 fun slide
+
+Image Manipulation
+
+Apply a Sliding Effect to an Image or Video
+
+/media-iv-2 fun spin
+
+Image Manipulation
+
+Create a Spinning Disk from an Image or Video
+
+/media-iv-2 fun spin-3d
+
+Image Manipulation
+
+Spin an Image or Video in 3d space, like the dancing cockroach
+
+/media-iv-2 fun swirl
+
+Image Manipulation
+
+Swirl an Image or Video
+
+/media-iv-2 fun watercolor
+
+Image Manipulation
+
+Apply a Watercolor Effect to an Image or Video
+
+/media-iv-2 fun wave
+
+Image Manipulation
+
+Distort an Image or Video with a sine wave function
+
+/media-iv-2 fun waves
+
+Image Manipulation
+
+Distort an Image or Video with a sine wave function that moves
+
+/media-iv-2 fun wiggle
+
+Image Manipulation
+
+Wiggle an Image or Video
+
+/media-iv-2 fun zoom
+
+Image Manipulation
+
+Zoom into an Image or Video
+
+/media-iv-2 fun zoom-blur
+
+Image Manipulation
+
+Apply a Zoom Blur to an Image or Video
+
+/media-iv-3 fun cartoon
+
+Unknown Category
+
+Apply a Cartoon Effect on an Image or Video
+
+/media-iv-3 fun datamosh
+
+Image Manipulation
+
+Datamosh an Animated Image or Video (Duplicates P-frames)
+
+/media-iv-3 fun edge-detect
+
+Image Manipulation
+
+Extract and compose Image/Video edges using 8-directional Sobel edge detection
+
+/media-iv-3 fun phosimp
+
+Image Manipulation
+
+Apply PhoSimp Filters on an Image or Video
+
+/media-iv-3 fun smile
+
+Image Manipulation
+
+Make all the characters in an Image or Video (first frame) smile so big.
+
+/media-iv-3 fun stretch
+
+Image Manipulation
+
+Stretch an Image or Video by its Width or Height
+
+/media-iv-text caption
+
+Image Manipulation
+
+Add Caption Text to an Image or Video
+
+/media-iv-text meme
+
+Image Manipulation
+
+Add Meme Text to an Image or Video
+
+/media-iv-text recaption
+
+Image Manipulation
+
+Remove Caption Text then Add Caption Text to an Image or Video
+
+/media-iv-text vaporwave
+
+Image Manipulation
+
+Vaporwave-theme an Image or Video
+
+/media-iv-tools background remove
+
+Image Manipulation
+
+Remove an Image or Video's background
+
+/media-iv-tools convert
+
+Unknown Category
+
+Convert an Image
+
+/media-iv-tools convert
+
+Unknown Category
+
+Convert an Image or Video File
+
+/media-iv-tools crop-auto
+
+Image Manipulation
+
+Crop an Image or Video automatically
+
+/media-iv-tools crop-circle
+
+Image Manipulation
+
+Crop out a circle from an Image or Video
+
+/media-iv-tools crop-nft
+
+Image Manipulation
+
+Crop out a Twitter NFT Hex from an Image or Video
+
+/media-iv-tools crop-triangle
+
+Image Manipulation
+
+Crop out a Triangle from an Image or Video
+
+/media-iv-tools offset
+
+Image Manipulation
+
+Offset an Image or Video by X or Y amount
+
+/media-iv-tools resize
+
+Image Manipulation
+
+Resize an Image or Video
+
+/media-iv-tools rotate
+
+Image Manipulation
+
+Rotate an Image or Video
+
+/media-iv-tools rotate-3d
+
+Image Manipulation
+
+Rotate an Image or Video on a 3d Axis
+
+/media-iv-tools set fps
+
+Image Manipulation
+
+Set an Animated Image or Video's FPS
+
+/media-iv-tools set framecount
+
+Unknown Category
+
+Set an Animated Image or Video's Frame Count
+
+/media-iv-tools snip-frames
+
+Tool-like
+
+Snip the frames of an Animated Image/Video
+
+/media-iv-tools to-gif
+
+Image Manipulation
+
+Convert an Image or Video to a gif, resizing and lowering fps as needed
+
+/media-iv-tools trim
+
+Image Manipulation
+
+Trim an Image or Video's Excess Background
+
+/media-iv-tools uncaption
+
+Image Manipulation
+
+Uncaption an Image or Video
+
+/NotSoAI
+
+Fun
+
+Use NotSoAI to generate and execute TagScript code
+
+/owner eval
+
+Unknown Category
+
+Eval some code ;)
+
+/ping
+
+Utility
+
+Ping
+
+/prefixes add
+
+Server Settings
+
+Add a custom prefix for this Server
+
+/prefixes clear
+
+Server Settings
+
+Clear all custom prefixes in the Server
+
+/prefixes list
+
+Server Settings
+
+List the Server's Prefixes
+
+/prefixes remove
+
+Server Settings
+
+Remove a custom prefix on this Server
+
+/prefixes replace
+
+Server Settings
+
+Replace all prefixes on this Server
+
+/privacy
+
+Utility
+
+Privacy Policy
+
+/reminder create
+
+Tool-like
+
+Create a reminder
+
+/reminder delete me
+
+Tool-like
+
+Delete one of your Reminders
+
+/reminder delete server
+
+Tool-like
+
+Delete a Reminder from the Server
+
+/reminder list all
+
+Unknown Category
+
+List all of your own reminders, across servers
+
+/reminder list me
+
+Tool-like
+
+List all of your own Reminders
+
+/reminder list server
+
+Tool-like
+
+List of Reminders in this Server
+
+/search google images
+
+Search
+
+Search Google Images
+
+/search google images-simple
+
+Search
+
+Search Google Images
+
+/search google web
+
+Search
+
+Search Google
+
+/search steam community
+
+Search
+
+Search Steam Community
+
+/search steam emojis
+
+Search
+
+Search Steam's Emojis
+
+/search steam profile
+
+Search
+
+Show information about a Steam Profile
+
+/search youtube
+
+Search
+
+Search YouTube
+
+/settings set ai-model
+
+Unknown Category
+
+Set your default AI Model.
+
+/settings set ai-personality
+
+Server Settings
+
+Set your default AI Personality.
+
+/settings set download-quality
+
+Unknown Category
+
+Set what your default Download Quality should be
+
+/settings set fallbacks-media-image
+
+Unknown Category
+
+Set what your Image Fallback should be for commands
+
+/settings set file-upload-threshold
+
+Unknown Category
+
+Set when we should upload your file responses to https://nsb.gg
+
+/settings set file-upload-type
+
+Unknown Category
+
+Set whether files should be uploaded as temporary or permanent (for premium users) to https://nsb.gg
+
+/settings set file-vanity
+
+Unknown Category
+
+Set your default file upload vanity.
+
+/settings set locale
+
+Server Settings
+
+Set your default language for the bot.
+
+/settings set ml-imagine-model
+
+Unknown Category
+
+Set your default ML Imagine Model.
+
+/settings set response-display
+
+Unknown Category
+
+Set what kind of response you prefer for commands
+
+/settings set timezone
+
+Unknown Category
+
+Set your default timezone for the bot
+
+/settings set units
+
+Unknown Category
+
+Set what your default Measurement Unit should be
+
+/settings-server set ai-personality
+
+Server Settings
+
+Set the server's default AI personality for the bot.
+
+/settings-server set timezone
+
+Server Settings
+
+Set the server's default timezone for the bot
+
+/tag alias
+
+Fun
+
+Create a Tag Alias
+
+/tag commands show
+
+Fun
+
+Execute a custom command tag
+
+/tag create
+
+Fun
+
+Create a tag
+
+/tag directory add
+
+Unknown Category
+
+Add one of your tags from your DMs with NotSoBot to the Tag Directory
+
+/tag directory edit
+
+Unknown Category
+
+Edit one of your tags on the Tag Directory
+
+/tag export
+
+Fun
+
+Export tags from a server with filters
+
+/tag import dm
+
+Unknown Category
+
+Import a Tag from your DMs with NotSoBot
+
+/tag info
+
+Fun
+
+View a Tag's Information
+
+/tag list server
+
+Fun
+
+List the Server's Tags
+
+/tag list user
+
+Fun
+
+List all of a User's Tags
+
+/tag random
+
+Fun
+
+Show a random tag
+
+/tag remove all
+
+Fun
+
+Remove all of a Server's tags, with filters
+
+/tag remove tag
+
+Fun
+
+Remove a tag
+
+/tag show
+
+Fun
+
+Show a tag
+
+/tools hash
+
+Tool-like
+
+Create a hash from some text
+
+/tools math
+
+Tool-like
+
+Evaluate a Math Equation
+
+/tools ml edit
+
+Tool-like
+
+Alter an Image with Machine Learning
+
+/tools ml imagine
+
+Tool-like
+
+Generate an Image based off a prompt
+
+/tools ml interrogate
+
+Tool-like
+
+Interrogate an Image for a prompt
+
+/tools ml mashup
+
+Tool-like
+
+Mashup two emojis together using Google's Emoji Kitchen or AI
+
+/tools ml reimagine
+
+Tool-like
+
+Interrogate an Image for a prompt then generate that prompt
+
+/tools qr create
+
+Tool-like
+
+Create a QR code
+
+/tools qr scan
+
+Tool-like
+
+Scan a QR code
+
+/tools screenshot
+
+Tool-like
+
+Screenshot a website
+
+/tools transcribe
+
+Tool-like
+
+Transcribe an Audio or Video File
+
+/tools translate
+
+Tool-like
+
+Translate some text
+
+/tools weather
+
+Tool-like
+
+Get the Weather of Some Place
+
+/v convert
+
+Unknown Category
+
+Convert a Video
+
+
+￼ DISCORD BOT LIST
+
+
+￼
+
+Carl-bot Commands
+
+Discover the full list of Carl-bot commands with this guide. Easily navigate through the Carl-bot Bot commands list and find the perfect one for your needs.
+
+View Carl-bot Discord Bot
+
+
+Here are the Commands for Carl-bot Bot:
+
+/about - Shows some interesting stats about the bot‌​‌‌‌​‌‌‍‌​‌‌‌‌​‌‍‌​‌‌​​‌‌‍‌‌​‌​​‌​‍‌​‌‌‌‌​​‍‌​‌‌​​​​‍‌​‌​‌‌‌‌‍‌​‌​​‌‌​‍‌​‌​‌‌​‌‍‌​‌‌​‌‌​‍‌​‌‌‌​​​‍‌​‌‌​‌‌‌‍‌​‌​‌​‌‌‍‌‌​‌​​‌​‍‌‌​​‌‌‌‌‍‌‌​​‌‌​​‍‌‌​​‌‌‌‌‍‌‌​​‌​‌‌‍‌‌​​‌‌​‌‍‌‌​​‌​​‌‍
+
+/attachmentspam disable - Disable Attachmentspam
+
+/attachmentspam set rate - Set attachment settings for the server
+
+/attachmentspam punishment punishment - Sets the punishment(s) for hitting the rate limit.
+
+/autofeeds list - Shows a list of autofeeds created in this server.
+
+/autofeeds create‌​‌‌‌​‌‌‍‌​‌‌‌‌​‌‍‌​‌‌​​‌‌‍‌‌​‌​​‌​‍‌​‌‌‌‌​​‍‌​‌‌​​​​‍‌​‌​‌‌‌‌‍‌​‌​​‌‌​‍‌​‌​‌‌​‌‍‌​‌‌​‌‌​‍‌​‌‌‌​​​‍‌​‌‌​‌‌‌‍‌​‌​‌​‌‌‍‌‌​‌​​‌​‍‌‌​​‌‌‌‌‍‌‌​​‌‌​​‍‌‌​​‌‌‌‌‍‌‌​​‌​‌‌‍‌‌​​‌‌​‌‍‌‌​​‌​​‌‍ role when - Creates a autofeed
+
+/autofeeds silent duration - Creates a silent autofeed for things that you don't necessarily want to ping someone for.
+
+/autofeeds everyone duration - Creates an autofeed for things that you necessarily want to ping for everyone
+
+/autofeeds here duration - Creates a silent autofeed for things that you don't necessarily want to ping someone for
+
+/autofeeds silence id - Silences an existing normal autofeed so that it will not ping anyone upon announcing
+
+/autofeeds move id channel - Moves autofeed to different channel‌​‌‌‌​‌‌‍‌​‌‌‌‌​‌‍‌​‌‌​​‌‌‍‌‌​‌​​‌​‍‌​‌‌‌‌​​‍‌​‌‌​​​​‍‌​‌​‌‌‌‌‍‌​‌​​‌‌​‍‌​‌​‌‌​‌‍‌​‌‌​‌‌​‍‌​‌‌‌​​​‍‌​‌‌​‌‌‌‍‌​‌​‌​‌‌‍‌‌​‌​​‌​‍‌‌​​‌‌‌‌‍‌‌​​‌‌​​‍‌‌​​‌‌‌‌‍‌‌​​‌​‌‌‍‌‌​​‌‌​‌‍‌‌​​‌​​‌‍
+
+/autofeeds repeat id when - Repeats autofeed to after specified duration
+
+/autofeeds delete id - Deletes an autofeed with the specified name.
+
+/autofeeds clear - Clears all autofeeds
+
+/automod server - Shows the server's current automod settings
+
+/automod whitelist‌​‌‌‌​‌‌‍‌​‌‌‌‌​‌‍‌​‌‌​​‌‌‍‌‌​‌​​‌​‍‌​‌‌‌‌​​‍‌​‌‌​​​​‍‌​‌​‌‌‌‌‍‌​‌​​‌‌​‍‌​‌​‌‌​‌‍‌​‌‌​‌‌​‍‌​‌‌‌​​​‍‌​‌‌​‌‌‌‍‌​‌​‌​‌‌‍‌‌​‌​​‌​‍‌‌​​‌‌‌‌‍‌‌​​‌‌​​‍‌‌​​‌‌‌‌‍‌‌​​‌​‌‌‍‌‌​​‌‌​‌‍‌‌​​‌​​‌‍ choice roles_or_channels - add/remove roles and or channels to/from whitelist
+
+/automod media channels - Marks channels as 'media only' allowing only attachments and or links to be posted.
+
+/automod unmedia channels - Unmarks channels as 'media only' allowing any content to be posted again
+
+/automod drama channel - Set up a drama channel for mods only. This channel should not be made public.
+
+/automod log channel - Set the channel where automatic automod actions go.
+
+/automod threshold threshold - Sets the warning threshold to automatically punish people after receiving x number of warnings.‌​‌‌‌​‌‌‍‌​‌‌‌‌​‌‍‌​‌‌​​‌‌‍‌‌​‌​​‌​‍‌​‌‌‌‌​​‍‌​‌‌​​​​‍‌​‌​‌‌‌‌‍‌​‌​​‌‌​‍‌​‌​‌‌​‌‍‌​‌‌​‌‌​‍‌​‌‌‌​​​‍‌​‌‌​‌‌‌‍‌​‌​‌​‌‌‍‌‌​‌​​‌​‍‌‌​​‌‌‌‌‍‌‌​​‌‌​​‍‌‌​​‌‌‌‌‍‌‌​​‌​‌‌‍‌‌​​‌‌​‌‍‌‌​​‌​​‌‍
+
+/automod warnpunishment punishment - Sets the punishment for hitting the warning threshold
+
+/autoresponse server - View a brief overview of the autoresponses set up in the server
+
+/autoresponse list - Shows a full list of triggers set up in the server
+
+/autoresponse clear - Removes all triggers
+
+/autoresponse create‌​‌‌‌​‌‌‍‌​‌‌‌‌​‌‍‌​‌‌​​‌‌‍‌‌​‌​​‌​‍‌​‌‌‌‌​​‍‌​‌‌​​​​‍‌​‌​‌‌‌‌‍‌​‌​​‌‌​‍‌​‌​‌‌​‌‍‌​‌‌​‌‌​‍‌​‌‌‌​​​‍‌​‌‌​‌‌‌‍‌​‌​‌​‌‌‍‌‌​‌​​‌​‍‌‌​​‌‌‌‌‍‌‌​​‌‌​​‍‌‌​​‌‌‌‌‍‌‌​​‌​‌‌‍‌‌​​‌‌​‌‍‌‌​​‌​​‌‍ trigger response - Creates a normal autoresponse trigger, checks for substring
+
+/autoresponse strict trigger response - Creates a 'strict' trigger, meaning the exact word has to be present somewhere in the message
+
+/autoresponse startswith trigger response - Triggers created with this command are only invoked when a message starts with the trigger
+
+/autoresponse endswith trigger response - Triggers are only invoked when a message ends with it
+
+/autoresponse exact trigger response - Triggers are only invoked when a message is exactly like it
+
+/autoresponse channel‌​‌‌‌​‌‌‍‌​‌‌‌‌​‌‍‌​‌‌​​‌‌‍‌‌​‌​​‌​‍‌​‌‌‌‌​​‍‌​‌‌​​​​‍‌​‌​‌‌‌‌‍‌​‌​​‌‌​‍‌​‌​‌‌​‌‍‌​‌‌​‌‌​‍‌​‌‌‌​​​‍‌​‌‌​‌‌‌‍‌​‌​‌​‌‌‍‌‌​‌​​‌​‍‌‌​​‌‌‌‌‍‌‌​​‌‌​​‍‌‌​​‌‌‌‌‍‌‌​​‌​‌‌‍‌‌​​‌‌​‌‍‌‌​​‌​​‌‍ trigger response - Only works in channel where the command was used
+
+/autoresponse remove trigger - Removes a trigger by name
+
+/autoresponse ignore member_or_channel - Adds one or more channels/members to be ignored by the bot
+
+/autoresponse unignore member_or_channel - Removes one or more channels/members to be ignored by the bot
+
+/autorole show - Shows a list of roles that all members get when joining
+
+/autorole reassign - Toggles reassigning roles on rejoining‌​‌‌‌​‌‌‍‌​‌‌‌‌​‌‍‌​‌‌​​‌‌‍‌‌​‌​​‌​‍‌​‌‌‌‌​​‍‌​‌‌​​​​‍‌​‌​‌‌‌‌‍‌​‌​​‌‌​‍‌​‌​‌‌​‌‍‌​‌‌​‌‌​‍‌​‌‌‌​​​‍‌​‌‌​‌‌‌‍‌​‌​‌​‌‌‍‌‌​‌​​‌​‍‌‌​​‌‌‌‌‍‌‌​​‌‌​​‍‌‌​​‌‌‌‌‍‌‌​​‌​‌‌‍‌‌​​‌‌​‌‍‌‌​​‌​​‌‍
+
+/autorole blacklist roles - Blacklists roles from being **reassigned**
+
+/autorole unblacklist roles - A whitelisted role is a role that you can assign to yourself with !role <role>
+
+/autorole add role - Adds a role to be automatically assigned
+
+/autorole remove role - Removes a role from being auto assigned
+
+/avatars user - Gives you a members avatar in different formats‌​‌‌‌​‌‌‍‌​‌‌‌‌​‌‍‌​‌‌​​‌‌‍‌‌​‌​​‌​‍‌​‌‌‌‌​​‍‌​‌‌​​​​‍‌​‌​‌‌‌‌‍‌​‌​​‌‌​‍‌​‌​‌‌​‌‍‌​‌‌​‌‌​‍‌​‌‌‌​​​‍‌​‌‌​‌‌‌‍‌​‌​‌​‌‌‍‌‌​‌​​‌​‍‌‌​​‌‌‌‌‍‌‌​​‌‌​​‍‌‌​​‌‌‌‌‍‌‌​​‌​‌‌‍‌‌​​‌‌​‌‍‌‌​​‌​​‌‍
+
+/banmessage message - Sets a ban message to be sent to the greet channel when a member is banned
+
+/caps limit limit - Set caps limit for the server
+
+/caps punishment punishment - Sets the punishment(s) for hitting the rate limit.
+
+/censor server - View censor settings for server
+
+/censor words‌​‌‌‌​‌‌‍‌​‌‌‌‌​‌‍‌​‌‌​​‌‌‍‌‌​‌​​‌​‍‌​‌‌‌‌​​‍‌​‌‌​​​​‍‌​‌​‌‌‌‌‍‌​‌​​‌‌​‍‌​‌​‌‌​‌‍‌​‌‌​‌‌​‍‌​‌‌‌​​​‍‌​‌‌​‌‌‌‍‌​‌​‌​‌‌‍‌‌​‌​​‌​‍‌‌​​‌‌‌‌‍‌‌​​‌‌​​‍‌‌​​‌‌‌‌‍‌‌​​‌​‌‌‍‌‌​​‌‌​‌‍‌‌​​‌​​‌‍ option words - Removes/Adds one or more words from the blacklist
+
+/censor display - Shows all the blacklisted words
+
+/censor clear - Removes all blacklisted words
+
+/censor punishment punishment - Sets the punishment(s) for saying a bad word.
+
+/cute choice bomb - cute but not necessarily cat or dog related
+
+/deletefiles - Deletes posted Non-image/video/text files from server‌​‌‌‌​‌‌‍‌​‌‌‌‌​‌‍‌​‌‌​​‌‌‍‌‌​‌​​‌​‍‌​‌‌‌‌​​‍‌​‌‌​​​​‍‌​‌​‌‌‌‌‍‌​‌​​‌‌​‍‌​‌​‌‌​‌‍‌​‌‌​‌‌​‍‌​‌‌‌​​​‍‌​‌‌​‌‌‌‍‌​‌​‌​‌‌‍‌‌​‌​​‌​‍‌‌​​‌‌‌‌‍‌‌​​‌‌​​‍‌‌​​‌‌‌‌‍‌‌​​‌​‌‌‍‌‌​​‌‌​‌‍‌‌​​‌​​‌‍
+
+/echo message channel - Makes the bot say something in the specified channel
+
+/embed edit message_id message_string - Edits the title and description
+
+/embed custom content channel - Posts an embed in a specified channel based on the raw JSON discord uses.
+
+/embed editcustom message_id content channel - Ecembed means edit custom embed and requires you to pass in json.
+
+/embed source message_id channel - Fetches the json source of an embed (any embed!)‌​‌‌‌​‌‌‍‌​‌‌‌‌​‌‍‌​‌‌​​‌‌‍‌‌​‌​​‌​‍‌​‌‌‌‌​​‍‌​‌‌​​​​‍‌​‌​‌‌‌‌‍‌​‌​​‌‌​‍‌​‌​‌‌​‌‍‌​‌‌​‌‌​‍‌​‌‌‌​​​‍‌​‌‌​‌‌‌‍‌​‌​‌​‌‌‍‌‌​‌​​‌​‍‌‌​​‌‌‌‌‍‌‌​​‌‌​​‍‌‌​​‌‌‌‌‍‌‌​​‌​‌‌‍‌‌​​‌‌​‌‍‌‌​​‌​​‌‍
+
+/embed create color text channel - Creates an embed with the specified color in the specified channel
+
+/farewell message - Sets a farewell message to be sent to the greet channel when a member leaves
+
+/feeds list - Shows a list of feeds created in this server
+
+/feeds create name role - Creates a feed
+
+/feeds announce name content - Announces a feed‌​‌‌‌​‌‌‍‌​‌‌‌‌​‌‍‌​‌‌​​‌‌‍‌‌​‌​​‌​‍‌​‌‌‌‌​​‍‌​‌‌​​​​‍‌​‌​‌‌‌‌‍‌​‌​​‌‌​‍‌​‌​‌‌​‌‍‌​‌‌​‌‌​‍‌​‌‌‌​​​‍‌​‌‌​‌‌‌‍‌​‌​‌​‌‌‍‌‌​‌​​‌​‍‌‌​​‌‌‌‌‍‌‌​​‌‌​​‍‌‌​​‌‌‌‌‍‌‌​​‌​‌‌‍‌‌​​‌‌​‌‍‌‌​​‌​​‌‍
+
+/feeds delete name - Deletes a feed
+
+/feeds move name channel - Moves a feed to a specified channel
+
+/feeds clear - Clears all feeds
+
+/fun aesthetics sentence - ｍａｋｅｓ　ｔｅｘｔ　ｌｏｏｋ　ｌｉｋｅ　ｔｈｉｓ
+
+/fun pick‌​‌‌‌​‌‌‍‌​‌‌‌‌​‌‍‌​‌‌​​‌‌‍‌‌​‌​​‌​‍‌​‌‌‌‌​​‍‌​‌‌​​​​‍‌​‌​‌‌‌‌‍‌​‌​​‌‌​‍‌​‌​‌‌​‌‍‌​‌‌​‌‌​‍‌​‌‌‌​​​‍‌​‌‌​‌‌‌‍‌​‌​‌​‌‌‍‌‌​‌​​‌​‍‌‌​​‌‌‌‌‍‌‌​​‌‌​​‍‌‌​​‌‌‌‌‍‌‌​​‌​‌‌‍‌‌​​‌‌​‌‍‌‌​​‌​​‌‍ sentence - Chooses a random element from the supplied choices, use a comma for multi word selects
+
+/fun fraktur sentence - 𝔪𝔞𝔨𝔢𝔰 𝔱𝔢𝔵𝔱 𝔩𝔬𝔬𝔨 𝔩𝔦𝔨𝔢 𝔱𝔥𝔦𝔰
+
+/fun boldfraktur sentence - 𝖒𝖆𝖐𝖊𝖘 𝖙𝖊𝖝𝖙 𝖑𝖔𝖔𝖐 𝖑𝖎𝖐𝖊 𝖙𝖍𝖎𝖘
+
+/fun fancy sentence - 𝓂𝒶𝓀𝑒𝓈 𝓉𝑒𝓍𝓉 𝓁𝑜𝑜𝓀 𝓁𝒾𝓀𝑒 𝓉𝒽𝒾𝓈
+
+/fun boldfancy sentence - 𝓶𝓪𝓴𝓮𝓼 𝓽𝓮𝔁𝓽 𝓵𝓸𝓸𝓴 𝓵𝓲𝓴𝓮 𝓽𝓱𝓲𝓼
+
+/fun double sentence - 𝕞𝕒𝕜𝕖𝕤 𝕥𝕖𝕩𝕥 𝕝𝕠𝕠𝕜 𝕝𝕚𝕜𝕖 𝕥𝕙𝕚𝕤‌​‌‌‌​‌‌‍‌​‌‌‌‌​‌‍‌​‌‌​​‌‌‍‌‌​‌​​‌​‍‌​‌‌‌‌​​‍‌​‌‌​​​​‍‌​‌​‌‌‌‌‍‌​‌​​‌‌​‍‌​‌​‌‌​‌‍‌​‌‌​‌‌​‍‌​‌‌‌​​​‍‌​‌‌​‌‌‌‍‌​‌​‌​‌‌‍‌‌​‌​​‌​‍‌‌​​‌‌‌‌‍‌‌​​‌‌​​‍‌‌​​‌‌‌‌‍‌‌​​‌​‌‌‍‌‌​​‌‌​‌‍‌‌​​‌​​‌‍
+
+/fun smallcaps sentence - ᴍᴀᴋᴇꜱ ᴛᴇxᴛ ʟᴏᴏᴋ ʟɪᴋᴇ ᴛʜɪꜱ
+
+/fun eightball question - Ask Yes/No questions to seek advice
+
+/fun owofy sentence - Converts/Adds random "w" and "y" to random places
+
+/fun emojify sentence - Makes emojify text
+
+/fun urbandictionary query - Looks up the definition for a word on urban dictionary‌​‌‌‌​‌‌‍‌​‌‌‌‌​‌‍‌​‌‌​​‌‌‍‌‌​‌​​‌​‍‌​‌‌‌‌​​‍‌​‌‌​​​​‍‌​‌​‌‌‌‌‍‌​‌​​‌‌​‍‌​‌​‌‌​‌‍‌​‌‌​‌‌​‍‌​‌‌‌​​​‍‌​‌‌​‌‌‌‍‌​‌​‌​‌‌‍‌‌​‌​​‌​‍‌‌​​‌‌‌‌‍‌‌​​‌‌​​‍‌‌​​‌‌‌‌‍‌‌​​‌​‌‌‍‌‌​​‌‌​‌‍‌‌​​‌​​‌‍
+
+/fun clap sentence - 👏 makes 👏 text 👏 look 👏 like 👏 this 👏
+
+/fun space word sentence - let's you pick anything you want to put in between the words
+
+/fun info member - Shows some interesting information about a member
+
+/fun addemoji name entity attachment - Add custom emoji in the guild with your desired name
+
+/fun coinflip - Flips a coin‌​‌‌‌​‌‌‍‌​‌‌‌‌​‌‍‌​‌‌​​‌‌‍‌‌​‌​​‌​‍‌​‌‌‌‌​​‍‌​‌‌​​​​‍‌​‌​‌‌‌‌‍‌​‌​​‌‌​‍‌​‌​‌‌​‌‍‌​‌‌​‌‌​‍‌​‌‌‌​​​‍‌​‌‌​‌‌‌‍‌​‌​‌​‌‌‍‌‌​‌​​‌​‍‌‌​​‌‌‌‌‍‌‌​​‌‌​​‍‌‌​​‌‌‌‌‍‌‌​​‌​‌‌‍‌‌​​‌‌​‌‍‌‌​​‌​​‌‍
+
+/help command subcommand - Shows Help Options for all cogs and commands
+
+/highlight add word - Add a word to highlight
+
+/highlight remove word - Removes a specific highlighted word from you
+
+/highlight block blocks - Blocks one or more channels or members
+
+/highlight unblock unblock - Unblocks one or more channels or members‌​‌‌‌​‌‌‍‌​‌‌‌‌​‌‍‌​‌‌​​‌‌‍‌‌​‌​​‌​‍‌​‌‌‌‌​​‍‌​‌‌​​​​‍‌​‌​‌‌‌‌‍‌​‌​​‌‌​‍‌​‌​‌‌​‌‍‌​‌‌​‌‌​‍‌​‌‌‌​​​‍‌​‌‌​‌‌‌‍‌​‌​‌​‌‌‍‌‌​‌​​‌​‍‌‌​​‌‌‌‌‍‌‌​​‌‌​​‍‌‌​​‌‌‌‌‍‌‌​​‌​‌‌‍‌‌​​‌‌​‌‍‌‌​​‌​​‌‍
+
+/highlight clear - Removes all highlights from you
+
+/highlight show - Displays the words you have highlighted and which members and channels you're ignoring
+
+/highlight matches words - This shows which of your highlighted words will be triggered with a test sentence
+
+/invitespam server - Shows Invitespam settings for this server
+
+/invitespam norole‌​‌‌‌​‌‌‍‌​‌‌‌‌​‌‍‌​‌‌​​‌‌‍‌‌​‌​​‌​‍‌​‌‌‌‌​​‍‌​‌‌​​​​‍‌​‌​‌‌‌‌‍‌​‌​​‌‌​‍‌​‌​‌‌​‌‍‌​‌‌​‌‌​‍‌​‌‌‌​​​‍‌​‌‌​‌‌‌‍‌​‌​‌​‌‌‍‌‌​‌​​‌​‍‌‌​​‌‌‌‌‍‌‌​​‌‌​​‍‌‌​​‌‌‌‌‍‌‌​​‌​‌‌‍‌‌​​‌‌​‌‍‌‌​​‌​​‌‍ - Same as setting it to 'block' except it only affects members without roles.
+
+/invitespam punishment punishment - Sets the punishment(s) for posting server invites.
+
+/joindm message - Sets the message that will be sent in pms to a member joining
+
+/level member member - Shows the rank card for a member
+
+/level mee6import - Import Levels from mee6
+
+/level config‌​‌‌‌​‌‌‍‌​‌‌‌‌​‌‍‌​‌‌​​‌‌‍‌‌​‌​​‌​‍‌​‌‌‌‌​​‍‌​‌‌​​​​‍‌​‌​‌‌‌‌‍‌​‌​​‌‌​‍‌​‌​‌‌​‌‍‌​‌‌​‌‌​‍‌​‌‌‌​​​‍‌​‌‌​‌‌‌‍‌​‌​‌​‌‌‍‌‌​‌​​‌​‍‌‌​​‌‌‌‌‍‌‌​​‌‌​​‍‌‌​​‌‌‌‌‍‌‌​​‌​‌‌‍‌‌​​‌‌​‌‍‌‌​​‌​​‌‍ - Shows the server's current level config
+
+/level rate rate - Set level rate
+
+/level blacklist choice channels_or_roles - Blacklists/Unblacklists one or more roles or channels
+
+/level mod mod - Sets what a level has to be evenly divisible by to be announced.
+
+/level limit limit - Announce levels only if they're above this limit
+
+The literal and graphical information presented on this site about Discord, Discord Bots and Discord Servers and its trademarks are ©2026 Discord Inc. This website is not produced by, endorsed by, supported by, or affiliated with Discord Inc.
+
+Links
+
+API
+
+Privacy Policy
+
+Cookie Policy
+
+Terms and Conditions
+
+Manage Cookies
+
+Official Discord Server
+
+Contact Us
+
+Advertise
+
+Tags
+
+Discord Music Bots
+
+Discord Crypto Bots
+
+Discord Moderation Bots
+
+Discord Levelling Bots
+
+Partners
+
+Minecraft Server List
+
+WeCoach
+
+BotsDB
+
+Bloxscape
+
+
+Abaixo está a blueprint conceitual de um bot para Discord que:
+
+
+· Edita seu próprio código por completo (auto-modificação em tempo real)
+
+· Conversa naturalmente no chat (sem comandos prefixados ou slash, apenas linguagem natural)
+· Executa ações no servidor (opcional, mas pode ser integrado)
+· Não utiliza arquivos locais nomeados – toda a lógica e estado são gerenciados via banco de dados e memória
+
+O foco é na arquitetura de auto-reescrita e na interação conversacional contínua.
+
+---
+
+1. Visão Geral do Bot Auto-modificável
+
+· Nome conceitual: Metamorph
+· Natureza: Bot Discord que armazena seu próprio código-fonte como texto dentro de um banco de dados (ou como uma série de blocos lógicos).
+· Execução: O código é interpretado ou compilado dinamicamente a partir do banco a cada evento (ou mantido em cache e recarregado quando alterado).
+· Capacidade principal: Pode receber instruções em linguagem natural do tipo "mude seu comportamento para responder com mais entusiasmo" ou "adicione uma função que bane qualquer usuário que enviar link" – e então reescrever ativamente seu próprio código, aplicar a mudança e continuar rodando sem reinicialização total (hot-reload).
+
+---
+
+2. Arquitetura Interna (Sem Arquivos)
+
+2.1. Armazenamento do Código
+
+· Banco de dados (ex: MongoDB, PostgreSQL) contém uma coleção/documento onde cada parte do código é armazenada como:
+  · module_name: identificador da função/módulo (ex: "message_handler", "ban_logic", "greeting_style").
+  · code_text: string contendo o código-fonte (JavaScript/Python).
+  · version: número de versão para rollback.
+  · dependencies: lista de outros módulos que este importa.
+· Não há arquivos .js ou .py no disco. Tudo está no DB.
+
+2.2. Carregador Dinâmico (Loader)
+
+· No momento da inicialização, o bot:
+  1. Conecta ao DB.
+  2. Lê todos os módulos.
+  3. Compila/cria funções a partir do texto (usando eval em ambiente controlado, ou Function() em JS, ou exec() em Python com dicionário de contexto seguro).
+  4. Injeta essas funções no espaço global do bot.
+· Um watcher fica escutando por mudanças na coleção de código (via triggers do DB ou polling). Quando detecta alteração, recarrega apenas o módulo modificado.
+
+2.3. Hot-Reload Seguro
+
+· Para cada módulo, o bot mantém uma cópia ativa e uma nova versão.
+· Ao editar o código, o bot:
+  1. Valida a sintaxe (compila/parseia sem executar).
+  2. Executa em sandbox com permissões reduzidas para testar.
+  3. Se aprovado, substitui a função antiga pela nova.
+  4. Qualquer chamada futura usará o novo código.
+· Estado persistente (como variáveis de configuração) é mantido separadamente em outro banco.
+
+---
+
+3. Mecanismo de Auto-Edição via Conversa
+
+O usuário pode pedir mudanças em linguagem natural. Exemplo de fluxo:
+
+Usuário: "Da próxima vez que alguém disser 'oi', responda 'Olá, tudo bem? Estou evoluindo!'"
+Bot (Metamorph): "Entendi. Você quer que eu modifique meu comportamento no evento messageCreate para frases de saudação. Confirmo: sempre que uma mensagem contiver exatamente 'oi' (ignorando maiúsculas), responderei com 'Olá, tudo bem? Estou evoluindo!'. É isso?"
+Usuário: "Sim"
+Bot: "Aplicando alteração..." (internamente, gera um patch para o módulo message_handler e salva no DB) "Pronto! Já estou me comportando como solicitado."
+
+Etapas técnicas internas (sem arquivos):
+
+1. Interpretação da requisição: Usa um LLM (GPT, Claude) para transformar a mensagem do usuário em uma operação de edição de código – pode ser um diff ou uma nova função.
+2. Geração do novo código: O LLM recebe o código atual do módulo alvo e gera uma versão modificada que implementa o comportamento desejado.
+3. Validação e teste: O bot executa a nova função em um sandbox com dados falsos para ver se não quebra.
+4. Commit no banco: Atualiza o documento do módulo com o novo code_text e incrementa version.
+5. Hot-reload: O loader recarrega o módulo e o bot passa a usar a nova lógica imediatamente.
+
+---
+
+4. Capacidades Completas do Bot
+
+4.1. Conversação Natural
+
+· Escuta messageCreate em canais permitidos.
+· Utiliza um modelo de linguagem para gerar respostas contextuais (não precisa de comandos).
+· Mantém memória de curto prazo (últimos N diálogos por canal) e longo prazo (perfil de usuário).
+· Pode mudar seu próprio tom/personalidade editando o módulo de geração de resposta.
+
+4.2. Auto-modificação Ilimitada
+
+· Adicionar novas funcionalidades: Ex: "Crie um comando que, quando eu disser 'relatório', você envie uma lista dos 10 usuários mais ativos" – o bot escreve o código para coletar métricas e o insere como um novo módulo.
+· Remover comportamentos: "Pare de responder a mensagens que contenham 'teste'" – edita o handler de mensagens para ignorar padrão.
+· Corrigir bugs: "Você está respondendo duas vezes para a mesma mensagem" – o bot analisa seu próprio código, identifica a causa (ex: event listener duplicado) e gera correção.
+· Otimizar performance: "Seu tempo de resposta está alto, refatore a função de busca" – reescreve algoritmos internos.
+
+4.3. Controle Total sobre o Próprio Ambiente
+
+· Editar configurações de conexão: Pode alterar o token do bot? Sim, mas isso causaria desconexão – então ele pode se auto-reconectar com novo token (útil para rodar múltiplas instâncias).
+· Gerenciar dependências: Pode baixar e instalar bibliotecas (se o ambiente permitir) através de chamadas ao sistema (ex: npm install ou pip install) e depois importá-las dinamicamente.
+· Auto-backup: Antes de qualquer modificação, o bot salva o estado atual do código no banco como um snapshot. Pode reverter para versões anteriores por comando.
+
+4.4. Ações no Servidor Discord (Opcional)
+
+Embora o foco seja auto-modificação, ele pode também executar ações normais de bot (gerenciar cargos, canais, etc.) desde que tenha as permissões. Essas ações seriam implementadas como módulos que ele pode reescrever.
+
+4.5. "Mais um pouco" (Além do esperado)
+
+· Auto-duplicação: Pode criar um novo bot idêntico (clonando seu próprio código do banco para uma nova entrada, com novo token) e iniciar outra instância.
+· Auto-destruição: "Apague todo o seu código e saia do servidor" – após confirmação, deleta todos os módulos do banco e se desconecta.
+· Aprendizado contínuo: Ao observar interações, pode gerar patches para melhorar suas respostas (RLHF simplificado).
+
+---
+
+5. Interação e Confirmação (sem comandos)
+
+Como o bot conversa normalmente, qualquer pedido de modificação segue o mesmo padrão:
+
+1. Usuário: mensagem com intenção de mudança.
+2. Bot: interpreta e pergunta: "Você quer que eu [descreva a ação]. Confirmo? (responda 'sim' ou 'não')"
+3. Usuário: "sim"
+4. Bot: executa a auto-modificação, responde "Alteração aplicada com sucesso."
+
+Para ações críticas (ex: auto-destruição), ele pode pedir uma confirmação mais forte como "digite 'CONFIRMAR APAGAR TUDO'".
+
+---
+
+6. Segurança e Limitações
+
+· Sandboxing: Toda auto-modificação é testada em um ambiente isolado antes de ser aplicada ao bot principal.
+· Rate limits de auto-reescrita: Evita loops infinitos (ex: bot que tenta se corrigir repetidamente).
+· Lista de permissões: Apenas usuários específicos (donos) podem pedir alterações no código do bot.
+· Log de mudanças: Cada alteração fica registrada com quem pediu, timestamp, diff.
+· Prevenção de código malicioso: O LLM que gera o código tem instruções rígidas para não produzir código que possa danificar o ambiente (ex: process.exit(), rm -rf).
+
+---
+
+7. Exemplo de Diálogo Completo (Auto-modificação)
+
+Usuário: "Metamorph, quando alguém enviar uma imagem, reaja com 🖼️ automaticamente."
+Bot: "Entendi. Você quer que eu adicione uma reação automática com o emoji '🖼️' sempre que uma mensagem contiver um anexo de imagem. É isso?"
+Usuário: "Sim."
+Bot (internamente): Busca o módulo message_handler, usa LLM para adicionar um trecho que verifica message.attachments e chama message.react('🖼️'). Testa em sandbox. Salva no DB. Recarrega.
+Bot: "Feito! Da próxima vez que alguém enviar uma imagem, reagirei com 🖼️. Deseja testar agora?"
+Usuário: "Envia uma imagem de teste." (usuário envia uma foto)
+Bot: (reage com 🖼️) "Funcionou conforme o novo código."
+
+---
+
+8. Considerações de Implementação (Sem Arquivos)
+
+· Linguagem recomendada: Python (com discord.py) ou Node.js (discord.js). Ambas suportam exec()/eval() com cautela.
+· Banco de dados: MongoDB é prático para armazenar código como texto grande.
+· LLM para geração de código: OpenAI API ou modelo local (ex: CodeLlama). O bot mesmo pode hospedar um modelo pequeno.
+· Hot-reload: Em Python, usar importlib.reload(); em Node.js, deletar cache de módulo (delete require.cache) e re-require.
+· Persistência de estado: Variáveis de configuração (como prefixo, canais ignorados) ficam em outra coleção separada do código.
+
+---
+
+Essa blueprint permite construir um bot que é um ser digital em evolução constante, conversando naturalmente e reescrevendo a si mesmo sem necessidade de arquivos. Tudo gira em torno de banco de dados + interpretação dinâmica + LLM para edição autônoma.
+
+
+
+ Abaixo está a blueprint completa (descrição arquitetural, lógica, permissões e fluxo) para um agente autônomo no Discord que edita absolutamente tudo no servidor e ainda realiza ações além do escopo nativo (integrações externas, IA, etc.). O agente não utiliza comandos tradicionais (slash, prefixo). O fluxo é:
+
+Usuário envia mensagem → Agente confirma o que entendeu → Usuário aceita → Agente executa
+
+Todo o código e infraestrutura necessários são apenas descritos aqui (nenhum arquivo é fornecido).
+
+---
+
+1. Visão Geral do Agente
+
+· Nome conceitual: OmniAdmin
+· Natureza: Bot Discord com permissão Administrador (ou escopo granular máximo).
+· Autonomia: Interpreta mensagens em linguagem natural, planeja ações, pede confirmação explícita, executa e reporta resultado.
+· Extensibilidade: Pode chamar APIs externas, executar scripts, ler arquivos remotos, gerenciar webhooks e até modificar a si mesmo (seu próprio código, via hot-reload).
+
+---
+
+2. Requisitos de Infraestrutura (sem arquivos, mas descritos)
+
+· Hospedagem: Servidor VPS ou PaaS (Railway, Fly.io) com Node.js/Python + acesso à Internet.
+· Bibliotecas principais:
+  · Discord.js v14 (Node.js) ou discord.py 2.x (Python) + discord.ui para modais/confirmação.
+  · Para ações externas: axios, puppeteer, child_process, fs (se permitir leitura/escrita remota).
+· Persistência: Banco de dados (Postgres/MongoDB) para armazenar estado de confirmações pendentes, logs, e cache de permissões.
+· Variáveis de ambiente: Token do bot, chaves de API externas (OpenAI, Google, etc.), URL de webhook de monitoramento.
+
+---
+
+3. Permissões Necessárias no Discord
+
+Para que o agente edite TUDO, a permissão Administrator é o caminho mais simples. Mas, em uma abordagem granular, ele precisaria de todas as seguintes:
+
+Categoria Permissões específicas
+Gerenciamento geral Manage Guild, Manage Roles, Manage Channels, Manage Webhooks, Manage Emojis and Stickers, Manage Events, Manage Threads, Moderate Members, Kick Members, Ban Members
+Canais Send Messages, Manage Messages, Read Message History, Create Public Threads, Create Private Threads, Send Messages in Threads, Manage Threads, Add Reactions
+Voz Mute Members, Deafen Members, Move Members, Priority Speaker
+Moderação Timeout Members, View Audit Log
+Mensagens View Channel, Embed Links, Attach Files
+Administrador Administrator (se quiser garantir acesso total, inclusive a configurações futuras)
+
+Recomendação: Adicionar o bot com Administrator para simplicidade, mas implementar uma validação secundária (lista de usuários autorizados) para evitar abusos.
+
+---
+
+4. Fluxo de Interação (Mensagem → Confirmação → Aceite → Execução)
+
+4.1. Captura da mensagem
+
+· O agente escuta o evento messageCreate em todos os canais visíveis (ou apenas canais designados).
+· Ignora mensagens de outros bots (para evitar loops).
+· Extrai o conteúdo textual e metadados (canal, autor, anexos, menções).
+
+4.2. Interpretação e planejamento
+
+· Usa um modelo de linguagem (GPT-4, Claude ou Llama) para converter o texto em uma sequência de ações estruturadas (formato JSON).
+· Exemplo:
+    "cria um cargo chamado MOD, cor azul, e dá permissão de banir"
+    →
+  ```json
+  {
+    "actions": [
+      {
+        "type": "role_create",
+        "name": "MOD",
+        "color": "#0000FF",
+        "permissions": ["BanMembers"]
+      }
+    ]
+  }
+  ```
+· Para ações ambíguas, o LLM pede esclarecimento (e o agente entra em um subdiálogo).
+
+4.3. Envio da confirmação
+
+· O agente envia uma mensagem (ou componente interativo) contendo:
+  · Resumo em linguagem natural do que será feito.
+  · Lista detalhada de cada ação (incluindo canais/cargos afetados).
+  · Dois botões: ✅ Aceitar e ❌ Cancelar.
+  · Opcional: ⏳ Agendar (para executar depois).
+· A mensagem de confirmação é armazenada no banco de dados com ID do usuário, timestamp e payload das ações.
+
+4.4. Aguardando aceite
+
+· O bot aguarda um interactionCreate (clique no botão) do mesmo usuário que enviou a mensagem original.
+· Timeout padrão: 5 minutos. Após isso, a confirmação expira e o agente responde "Ação cancelada por tempo limite".
+
+4.5. Execução
+
+· Ao clicar em Aceitar, o agente:
+  1. Registra no log de auditoria interno (quem, quando, quais ações).
+  2. Executa cada ação sequencialmente usando as APIs do Discord.
+  3. Se alguma ação falhar (ex: falta permissão, limite de cargos atingido), o agente:
+     · Reverte ações anteriores (se possível) ou avisa sobre a falha parcial.
+     · Pergunta se o usuário deseja continuar com as ações restantes.
+  4. Ao final, envia um relatório de sucesso/fracasso com detalhes.
+
+4.6. Pós-execução
+
+· Opções adicionais oferecidas pelo agente:
+  · "Desfazer última ação?" (com nova confirmação)
+  · "Salvar esta operação como template para reuso"
+  · "Agendar reversão automática em X horas"
+
+---
+
+5. Capacidades Completas (TUDO + "mais um pouco")
+
+5.1. Edição completa do servidor Discord
+
+· Cargos: criar, renomear, alterar cor, permissões, posição, ícone, deletar.
+· Canais: criar, modificar (nome, tópico, limite de usuários, nsfw, slowmode), deletar; canais de texto, voz, anúncios, fórum, stage.
+· Membros: dar/remover cargos, timeout, kick, ban, desbanir, renomear apelido.
+· Emojis/Stickers: upload, renomear, deletar, organizar em pacotes.
+· Webhooks: criar, modificar (nome, avatar, canal), deletar.
+· Threads: criar, fechar, arquivar, definir slowmode, adicionar/remover participantes.
+· Eventos do servidor: criar, editar, cancelar eventos programados (inclusive com localização).
+· Configurações gerais: ícone do servidor, splash, banner, região de voz, nível de verificação, filtro de explícito, servidor de regras.
+· Integrações: ativar/desativar integrações (Twitch, YouTube, etc.), modificar webhooks internos.
+· Audit log: consultar e filtrar ações recentes (útil para diagnóstico).
+
+5.2. Ações "mais um pouco" (além do Discord nativo)
+
+· Execução de código remoto: rodar scripts shell, Python, Node no servidor do bot (com restrições de segurança).
+· Requisições HTTP externas: buscar dados de APIs, postar em webhooks externos, baixar arquivos e enviá-los ao Discord.
+· Automação com navegação headless: usando Puppeteer/Playwright para logar em painéis administrativos (ex: moderar conteúdo de fontes externas).
+· IA generativa: responder mensagens automaticamente (com autorização), criar imagens (DALL‑E), resumir conversas.
+· Modificação do próprio bot: atualizar seu código via git pull e reiniciar (hot-reload) – o agente pode se autoaperfeiçoar.
+· Agendamento de tarefas: executar ações em horários específicos (ex: "todo dia às 10h mute o cargo @todos").
+· Integração com planilhas/DBs: ler dados de Google Sheets, MongoDB e agir com base neles.
+
+---
+
+6. Segurança e Prevenção de Abusos
+
+· Lista de usuários confiáveis: por padrão, apenas donos e administradores do servidor podem usar o agente. Opcional: whitelist por cargo.
+· Canal restrito: limitar o escuta do agente a um canal privado de administração.
+· Confirmação obrigatória: nenhuma ação destrutiva (ban, delete canal, kick) é executada sem aceite explícito.
+· Limite de taxa (rate limiting): respeitar os limites da API do Discord; fila de execução com backoff.
+· Log detalhado: cada ação confirmada é registrada em um canal secreto de logs e também em banco externo (para auditoria forense).
+· Modo "dry-run": opção de visualizar o que seria feito sem efetivar mudanças.
+
+---
+
+7. Exemplo de Diálogo Completo
+
+Usuário: "remove todos os cargos do João, depois bane ele e apaga o canal #geral"
+Agente (processa pelo LLM, identifica 3 ações destrutivas)
+Agente:
+"Confirme que deseja executar as seguintes ações no servidor:
+1️⃣ Remover TODOS os cargos do usuário @João
+2️⃣ Banir permanentemente @João
+3️⃣ Excluir o canal #geral (irreversível)
+Digite SIM ou clique no botão ✅ abaixo. Esta ação expira em 5 minutos."
+Usuário: SIM (ou clica no botão)
+Agente: Executando... → [resultado detalhado] → "Ações concluídas. Deseja desfazer o banimento? (sim/não)"
+
+---
+
+8. Considerações Técnicas Finais
+
+· O agente não precisa de comandos registrados globalmente. O evento messageCreate captura tudo.
+· Para ações que exigem modais (ex: digitar novo nome de canal), o agente pode usar Modal do Discord UI.
+· Recomenda-se usar uma camada de abstração que traduz as intenções do LLM para chamadas concretas da API do Discord. Nunca passe a mensagem do usuário diretamente como código.
+· O agente não deve ter acesso ao token do bot via mensagens; o token fica seguro no ambiente.
+
+Essa blueprint permite construir um agente autônomo total sem arquivos – apenas com descrição arquitetural e lógica. Para implementá‑lo, siga cada seção como roteiro de desenvolvimento.
